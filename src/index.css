@@ -1,0 +1,1497 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+
+:root {
+  font-family: Brevia, Mitimasu, Cambria, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #fefffe;
+  background-repeat: no-repeat;
+  color: #5f5353;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* Loader */
+
+.center-loader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 40px;
+  max-width: 100%;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 20px solid #fefffe;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Lightbox */
+
+#lightbox {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #44b1f099;
+}
+
+/* 404 Not Found */
+
+#not-found {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Apple Watch */
+
+.apple-watch {
+  display: none;
+}
+
+/* Header & Footer */
+
+header,
+footer {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  position: fixed;
+  text-align: center;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  text-align: right;
+  font-size: 0.65rem;
+  padding: 5px 10px 5px 0;
+}
+
+/* Nav Bar */
+
+#nav-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Main Page */
+
+main::before {
+  content: "";
+  display: block;
+  height: 180px;
+  margin-top: -100px;
+  visibility: hidden;
+}
+
+main {
+  /* margin-top: 10px; */
+  padding: 20px;
+}
+
+main h1,
+main h2 {
+  padding-bottom: 1rem;
+  font-family: "variex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main p {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.scroll-links {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-links {
+  transition: all 0.3s ease-in-out;
+}
+
+.text-links:hover {
+  transform: scale(1.05);
+}
+
+/* Accents */
+
+.accent-home {
+  color: #f94f7b;
+}
+
+.accent-blog {
+  color: #f0a544;
+}
+
+.accent-books {
+  color: #f7cf35;
+}
+
+.accent-projects {
+  color: #55d86a;
+}
+
+.accent-works {
+  color: #66d9ff;
+}
+
+.accent-about {
+  color: #968bff;
+}
+
+.accent-support {
+  color: #b66dad;
+}
+
+/* Home */
+
+.home {
+  max-width: 100%;
+}
+
+.home-1 {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+}
+
+.home-2 {
+  z-index: 10;
+  position: relative;
+  right: 0;
+}
+
+.pip-img {
+  height: 100vh;
+  text-align: left;
+}
+
+.banad-box {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.banad {
+  width: 300px;
+  max-width: 100%;
+  margin: 10px 0;
+  border: 2px solid #f28c28;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.banad:hover {
+  transform: scale(1.05);
+}
+
+.contact {
+  margin: 1em 0 0 0;
+}
+
+.contact-icons {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.icons-box {
+  margin: -5px;
+}
+
+.icons {
+  padding: 0;
+  margin: -10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+#icon1 {
+  filter: invert(47%) sepia(92%) saturate(2598%) hue-rotate(316deg)
+    brightness(99%) contrast(97%);
+}
+
+#icon2 {
+  filter: invert(80%) sepia(53%) saturate(1527%) hue-rotate(327deg)
+    brightness(99%) contrast(90%);
+}
+
+#icon3 {
+  filter: invert(97%) sepia(95%) saturate(7473%) hue-rotate(327deg)
+    brightness(99%) contrast(95%);
+}
+
+#icon4 {
+  filter: invert(83%) sepia(12%) saturate(2209%) hue-rotate(69deg)
+    brightness(92%) contrast(82%);
+}
+
+#icon5 {
+  filter: invert(67%) sepia(99%) saturate(378%) hue-rotate(165deg)
+    brightness(101%) contrast(101%);
+}
+
+#icon6 {
+  filter: invert(51%) sepia(15%) saturate(6748%) hue-rotate(218deg)
+    brightness(113%) contrast(103%);
+}
+
+#icon7 {
+  filter: invert(55%) sepia(11%) saturate(1725%) hue-rotate(256deg)
+    brightness(90%) contrast(90%);
+}
+
+.upcoming {
+  margin: 1em 0 1em 0;
+}
+
+.upcomingbutton {
+  display: inline-block;
+  padding: 2px 2px;
+  font-size: 0.8em;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+  outline: none;
+  color: #fff;
+  background-color: #f94f7b;
+  border: none;
+}
+
+/* Blog */
+
+.blog-list ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blog-list li {
+  text-align: center;
+  margin: 20px;
+  width: 300px;
+  border: 2px solid #f0a544;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  margin: 10px;
+  height: 60px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.blog-img {
+  max-width: 100%;
+}
+
+.blog-date {
+  font-style: italic;
+  margin: 10px;
+}
+
+.blog-info {
+  margin: 20px;
+}
+
+.blog-see-more {
+  margin: 20px;
+}
+
+.blog-link {
+  text-decoration: underline;
+  color: #e37100;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-link:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #968bff;
+}
+
+.blog-smallprint,
+.blog-tags-section {
+  font-size: 0.8rem;
+}
+
+.blog-tags-section {
+  padding: 10px 0;
+  border-top: 2px solid #f0a544;
+}
+
+.blog-tags {
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.blog-tags:hover {
+  text-decoration: underline;}
+
+/* Books */
+
+.books {
+}
+
+.book-nav-button {
+  margin-bottom: 10px;
+}
+
+.books-covers {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.books-list {
+  border-bottom: 2px dashed #f7cf35;
+  margin-bottom: 30px;
+}
+
+.books-covers-img,
+.books-covers-img-smol {
+  border: 1px solid #f7cf35;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  transition: all 0.3s ease-in-out;
+}
+
+.books-covers-img:hover,
+.books-covers-img-smol:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+#christieagatha::before,
+#awtlet::before,
+#other::before {
+  content: "";
+  display: block;
+  visibility: hidden;
+}
+
+.books-individual {
+  width: 100%;
+}
+
+.books-individual1,
+.books-individual2 {
+  text-align: center;
+}
+
+.books-covers-img-big,
+.books-preview,
+.books-preview-smol {
+  border: 1px solid #f7cf35;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.books-covers-img-big {
+  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+}
+
+.books-preview-container {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.books-preview,
+.books-preview-smol {
+  transition: all 0.3s ease-in-out;
+}
+
+.books-preview:hover,
+.books-preview-smol:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.books-preview {
+  height: 200px;
+}
+
+.books-preview-smol {
+  height: 100px;
+}
+
+.books-preview-full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 90%;
+  max-width: 90%;
+  border: 3px solid #eedea2;
+  border-radius: 20px;
+}
+
+.books-individual-titles,
+.books-individual-reviews,
+.books-individual-info {
+  border-bottom: 3px solid #eedea2;
+  margin: 20px;
+}
+
+.books-reviews-icons {
+  margin: 0 0 1rem 0;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.books-reviews-icons:hover {
+  transform: scale(1.08);
+}
+
+.books-individual-buy h3 {
+  margin: 20px;
+}
+
+.books-editions {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.books-editions1,
+.books-editions2 {
+  text-align: center;
+}
+
+.books-editions-img {
+  border: 1px solid #f7cf35;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  max-width: 250px;
+}
+
+.books-buy-button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fefffe;
+  border: 2px solid #f7cf35;
+  border-radius: 8px;
+}
+
+.books-buy-button:hover {
+  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+}
+
+.books-other-english h3 {
+  margin: 0;
+}
+
+.video-player {
+  width: 100%;
+}
+
+.books-language-selector-button,
+.books-language-selector-button-on {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.books-language-selector-button {
+  color: #e37100;
+  background-color: #fff3c2;
+  border: 2px solid #e37100;
+}
+
+.books-language-selector-button:hover {
+  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  transform: scale(1.08);
+}
+
+#books-language-selector-button-on {
+  color: #ff6a00;
+  background-color: #ffde5c;
+  border: 2px solid #ff6a00;
+}
+
+/* Projects */
+
+.projects {
+}
+
+.projects-list ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects-list li {
+  text-align: center;
+  margin: 20px;
+  width: 300px;
+  border: 2px solid #55d86a;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+}
+
+.projects-title {
+  font-size: 1.2rem;
+  margin: 10px;
+  height: 60px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.projects-img {
+  max-width: 100%;
+}
+
+.projects-date {
+  font-style: italic;
+  margin: 10px;
+}
+
+.projects-info {
+  margin: 20px;
+}
+
+.projects-see-more {
+  margin: 20px;
+}
+
+.projects-link {
+  text-decoration: underline;
+  color: #e37100;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects-link:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #968bff;
+}
+
+.sixth-entry-download {
+}
+
+.sixth-entry-download-button {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #55d86a;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sixth-entry-download-button:hover {
+  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+}
+
+.sixth-entry-characters {
+  display: flex;
+  justify-self: center;
+  margin: 20px 0;
+}
+
+.sixth-entry-characters1 {
+}
+
+.sixth-entry-characters1 li {
+  /* margin: 0;
+  padding: 0; */
+}
+
+.sixth-entry-characters1 img {
+  max-width: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sixth-entry-characters1 img:hover {
+  opacity: 0.8;
+}
+
+.sixth-entry-characters2 {
+}
+
+.sixth-entry-characters2 img {
+  max-height: 400px;
+}
+
+.screenshots ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.screenshots li {
+  text-align: center;
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.screenshots img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid #55d86a;
+  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+}
+
+/* Works */
+
+.publications {
+}
+
+.publications ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.publications li {
+  text-align: center;
+  margin: 20px;
+  width: 300px;
+}
+
+.publication-type-short-story,
+.publication-type-mg-novel,
+.publication-type-comic {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.publication-type-short-story {
+  color: #66d9ff;
+}
+
+.publication-type-mg-novel {
+  color: #b66dad;
+}
+
+.publication-type-comic {
+  color: #55d86a;
+}
+
+.publication-title {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.publication-date {
+  font-style: italic;
+  margin: 10px;
+}
+
+.publication-publisher {
+  margin: 10px;
+}
+
+.publication-link {
+  text-decoration: underline;
+  color: #e37100;
+  transition: all 0.3s ease-in-out;
+}
+
+.publication-link:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #968bff;
+}
+
+.short-stories {
+}
+
+.short-stories-body {
+  font-size: 1.1rem;
+}
+
+/* About */
+
+.profile-pip,
+.about-gallery-pics {
+  border: 1px solid #968bff;
+  border-radius: 10px;
+}
+
+.about-gallery {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-gallery-pics {
+  transition: all 0.3s ease-in-out;
+}
+
+.about-gallery-pics:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.about-gallery-pics-full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 90%;
+  max-width: 90%;
+  border: 3px solid #968bff;
+  border-radius: 20px;
+}
+
+/* Support */
+
+.icon-amazonwishlist {
+  width: 150px;
+  margin: 20px;
+}
+
+/* Laptop Computer screen CSS */
+
+@media only screen and (min-width: 1200px) {
+  /* General */
+
+  .mobile-linebreak {
+    display: none;
+  }
+
+  /* Header & Footer */
+
+  header,
+  footer {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: rgb(254, 255, 254, 0.9);
+    background-image: url(/assets/rainbowdivide.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 100% 5px;
+  }
+
+  /* Nav Bar */
+
+  .nav-handheld {
+    display: none;
+  }
+
+  .nav-computer {
+    display: inline-table;
+    width: 95%;
+    margin: 20px 0 10px 0;
+  }
+
+  .nav-img-full {
+    width: 12%;
+    max-width: 200px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-img-full:hover {
+    opacity: 0.6;
+  }
+
+  #nav-logo {
+    margin-right: 4%;
+  }
+
+  /* Main Page */
+
+  main h1 {
+    font-size: 3rem;
+  }
+
+  main h2 {
+    font-size: 2rem;
+  }
+
+  main h3 {
+    font-size: 1.3rem;
+  }
+
+  .home,
+  .blog,
+  .books,
+  .projects,
+  .works,
+  .about,
+  .support,
+  .christieagatha-books,
+  .short-stories {
+    margin: 30px 0 0 0;
+  }
+
+  /* Home */
+
+  .home-2 {
+    overflow: scroll;
+    padding: 20px 50px 0 600px;
+  }
+
+  .pip-img {
+    margin: -30px 0 0 0;
+  }
+
+  .icons-box {
+    height: 60px;
+    width: 60px;
+  }
+
+  .icons {
+    height: 60px;
+  }
+
+  /* blog */
+
+  .blog {
+  }
+
+  /* Books */
+
+  .books {
+  }
+
+  .books-covers {
+    row-gap: 10px;
+  }
+
+  .books-covers-img {
+    height: 250px;
+    margin: 0 10px;
+  }
+
+  .books-covers-img-smol {
+    height: 150px;
+    margin: 0 5px;
+  }
+
+  #christieagatha::before,
+  #awtlet::before,
+  #other::before {
+    height: 130px;
+    margin-top: -120px;
+  }
+
+  .books-individual {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .books-individual1,
+  .books-individual2 {
+    width: 45%;
+  }
+
+  .books-individual1 {
+    left: 0;
+  }
+
+  .books-individual2 {
+    right: 0;
+  }
+
+  .books-covers-img-big {
+    height: 800px;
+  }
+
+  .books-editions {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .books-editions1,
+  .books-editions2 {
+    width: 45%;
+  }
+
+  .books-editions1 {
+    left: 0;
+  }
+
+  .books-editions2 {
+    right: 0;
+  }
+
+  .video-player {
+    height: 360px;
+  }
+
+  /* Projects */
+
+  .sixth-entry-characters1 ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects {
+  }
+
+  /* Works */
+
+  .works {
+  }
+
+  .short-stories {
+  }
+
+  .short-stories-body {
+    font-size: 1.1rem;
+    padding: 20px 200px;
+  }
+
+  /* About */
+
+  .about {
+  }
+
+  .mememe {
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+
+  .mememe-1,
+  .mememe-2 {
+    padding: 10px;
+  }
+
+  .profile-pip {
+    height: 70vh;
+  }
+
+  .about-gallery-pics {
+    height: 250px;
+    margin: 10px;
+  }
+
+  /* Support */
+
+  .support {
+  }
+}
+
+/* Tablet screen CSS */
+
+@media only screen and (max-width: 1199px) {
+  /* General */
+
+  .mobile-linebreak {
+    display: none;
+  }
+
+  /* Header & Footer */
+
+  footer,
+  .nav-handheld-top {
+    background-color: rgb(254, 255, 254, 0.9);
+    background-image: url(/assets/rainbowdivide.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 100% 5px;
+  }
+
+  footer {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+
+  /* Nav Bar */
+
+  .nav-computer {
+    display: none;
+  }
+
+  .nav-handheld {
+    text-align: center;
+  }
+
+  .nav-dropdown-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    background: none;
+    border: 0;
+  }
+
+  #nav-logo {
+    height: 80px;
+    max-width: 200px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-dropdown-button img {
+    height: 60px;
+  }
+
+  .nav-dropdown-select {
+    z-index: 999;
+    position: relative;
+    list-style-type: none;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: url("/assets/rainbowdivide.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 100% 5px;
+  }
+
+  .nav-dropdown-option {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0.5rem;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-dropdown-option:hover {
+    font-weight: 600;
+  }
+
+  #nav-dropdown-home {
+    color: #f94f7b;
+    background-color: rgba(249, 79, 123, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #nav-dropdown-home:hover {
+    color: #fefffe;
+    background-color: #f94f7b;
+  }
+
+  #nav-dropdown-blog {
+    color: #f0a544;
+    background-color: rgba(240, 165, 68, 0.3);
+  }
+
+  #nav-dropdown-blog:hover {
+    color: #fefffe;
+    background-color: #f0a544;
+  }
+
+  #nav-dropdown-books {
+    color: #f7cf35;
+    background-color: rgba(247, 207, 53, 0.3);
+  }
+
+  #nav-dropdown-books:hover {
+    color: #fefffe;
+    background-color: #f7cf35;
+  }
+
+  #nav-dropdown-projects {
+    color: #55d86a;
+    background-color: rgba(85, 216, 106, 0.3);
+  }
+
+  #nav-dropdown-projects:hover {
+    color: #fefffe;
+    background-color: #55d86a;
+  }
+
+  #nav-dropdown-works {
+    color: #66d9ff;
+    background-color: rgba(102, 217, 255, 0.3);
+  }
+
+  #nav-dropdown-works:hover {
+    color: #fefffe;
+    background-color: #66d9ff;
+  }
+
+  #nav-dropdown-about {
+    color: #968bff;
+    background-color: rgba(150, 139, 255, 0.3);
+  }
+  #nav-dropdown-about:hover {
+    color: #fefffe;
+    background-color: #968bff;
+  }
+
+  #nav-dropdown-support {
+    color: #b66dad;
+    background-color: rgba(182, 109, 173, 0.3);
+  }
+  #nav-dropdown-support:hover {
+    color: #fefffe;
+    background-color: #b66dad;
+  }
+
+  /* Main Page */
+
+  main h1 {
+    font-size: 2rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  main h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Home */
+
+  .pip-img {
+    opacity: 0.2;
+  }
+
+  .home-2 {
+    padding: 0;
+  }
+
+  .icons-box {
+    height: 60px;
+    width: 60px;
+  }
+
+  .icons {
+    height: 60px;
+  }
+
+  /* Books */
+
+  .books {
+  }
+
+  .book-nav-button-container {
+    text-align: center;
+  }
+
+  .books-covers {
+    row-gap: 10px;
+  }
+
+  .books-covers-img {
+    height: 250px;
+    margin: 0 10px;
+  }
+
+  .books-covers-img-smol {
+    height: 150px;
+    margin: 0 5px;
+  }
+
+  #christieagatha::before,
+  #awtlet::before,
+  #other::before {
+    height: 100px;
+    margin-top: -100px;
+  }
+
+  .books-individual {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .books-individual1,
+  .books-individual2 {
+    width: 100%;
+  }
+
+  .books-covers-img-big {
+    width: 90%;
+  }
+
+  .video-player {
+    height: 450px;
+  }
+
+  /* Projects */
+
+  .sixth-entry-characters1 ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Works */
+
+  .short-stories {
+  }
+
+  .short-stories-body {
+    font-size: 1.1rem;
+    padding: 20px 100px;
+  }
+
+  /* About */
+
+  .mememe,
+  .mememe-1 {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .mememe-1 {
+    text-align: center;
+  }
+
+  .profile-pip {
+    width: 90%;
+  }
+
+  .about-gallery-pics {
+    height: 200px;
+    margin: 10px;
+  }
+}
+
+/* Big phone screen CSS */
+
+@media only screen and (max-width: 440px) {
+  /* General */
+
+  .mobile-linebreak {
+    display: contents;
+  }
+
+  /* Nav Bar */
+
+  .nav-handheld-top {
+    text-align: left;
+  }
+
+  #nav-logo {
+    margin-left: 20px;
+  }
+
+  /* Blog */
+
+  .blog ul {
+    max-width: 100%;
+  }
+
+  /* Books */
+
+  .books-covers {
+    text-align: center;
+  }
+
+  .video-player {
+    height: 200px;
+  }
+
+  /* Projects */
+
+  .projects ul {
+    max-width: 100%;
+  }
+
+  .sixth-entry-characters {
+    flex-direction: column;
+  }
+
+  .sixth-entry-characters1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sixth-entry-characters2 img {
+    max-width: 100%;
+  }
+
+  /* Works */
+
+  .publications {
+  }
+
+  .publications ul {
+    max-width: 100%;
+  }
+
+  .short-stories {
+  }
+
+  .short-stories-body {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+}
+
+/* Medium phone screen CSS */
+
+@media only screen and (max-width: 374px) {
+  /* Books */
+
+  .books {
+  }
+
+  .books-covers {
+    row-gap: 0;
+  }
+
+  .books-covers-img {
+    height: auto;
+    width: 90%;
+    margin: 10px;
+  }
+
+  .video-player {
+    height: 180px;
+  }
+}
+
+/* Small phone screen CSS */
+
+@media only screen and (max-width: 340px) {
+  /* Home */
+
+  .icons-box {
+    height: 50px;
+    width: 50px;
+  }
+
+  .icons {
+    height: 50px;
+  }
+
+  /* About */
+
+  .about-gallery-pics {
+    height: 180px;
+  }
+
+  /* Projects */
+
+  .sixth-entry-characters1 img {
+    max-width: 40px;
+  }
+
+  /* Books */
+
+  .video-player {
+    height: 150px;
+  }
+}
+
+/* Apple Watch */
+
+@media only screen and (max-width: 200px) {
+  /* Hide everything */
+
+  header {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .apple-watch {
+    display: contents;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .apple-watch img {
+    max-width: 100%;
+  }
+
+  .apple-watch p {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1rem;
+  }
+}
