@@ -41,6 +41,11 @@ const Blog = () => {
                     <span className="accent-blog">#</span>all
                   </span>
                 </button>{" "}
+                <button onClick={() => setTags("2025")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>2025
+                  </span>
+                </button>{" "}
                 <button onClick={() => setTags("2024")}>
                   <span className="blog-tags">
                     <span className="accent-blog">#</span>2024
@@ -83,6 +88,11 @@ const Blog = () => {
                 <button onClick={() => setTags("all")}>
                   <span className="blog-tags">
                     <span className="accent-blog">#</span>all
+                  </span>
+                </button>{" "}
+                <button onClick={() => setTags("on-site")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>on site
                   </span>
                 </button>{" "}
                 <button onClick={() => setTags("external")}>
