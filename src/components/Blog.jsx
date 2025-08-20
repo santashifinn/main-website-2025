@@ -62,6 +62,28 @@ const Blog = () => {
                   </span>
                 </button>
                 <br />
+                <span className="strong">Category: </span>{" "}
+                <button onClick={() => setTags("all")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>all
+                  </span>
+                </button>{" "}
+                <button onClick={() => setTags("art")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>art
+                  </span>
+                </button>{" "}
+                <button onClick={() => setTags("books")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>books
+                  </span>
+                </button>{" "}
+                <button onClick={() => setTags("dolls")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>dolls
+                  </span>
+                </button>{" "}
+                <br />
                 <span className="strong">Type: </span>{" "}
                 <button onClick={() => setTags("all")}>
                   <span className="blog-tags">
@@ -116,12 +138,15 @@ const Blog = () => {
           <ul>
             {tags === "all" ||
             tags === "2024" ||
+            tags === "books" ||
             tags === "interview" ||
             tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">A</span> Pocketful of Books
+                    <span className="italics">
+                      <span className="accent-blog">A</span> Pocketful of Books
+                    </span>{" "}
                     interview
                   </div>
                   <div>
@@ -133,16 +158,18 @@ const Blog = () => {
                   </div>
                   <div className="blog-date"> July 2024</div>
                   <div className="blog-info">
-                    Interview by A Pocketful of Books, who released a fantastic{" "}
+                    Interview by{" "}
+                    <span className="italics">A Pocketful of Books</span>, who
+                    released a fantastic{" "}
                     <span className="blog-link">
                       <a
                         href="https://apocketfulofbooks.com/products/back-issue-mysteries-of-science"
                         target="_blank"
                       >
-                        box set
+                        box set edition
                       </a>
                     </span>{" "}
-                    of To Halt a Heist.
+                    of <span className="italics">To Halt a Heist</span>.
                   </div>
                   <div className="blog-see-more">
                     <span className="blog-link">
@@ -166,6 +193,11 @@ const Blog = () => {
                         <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
+                    <button onClick={() => setTags("books")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>books
+                      </span>
+                    </button>{" "}
                     <button onClick={() => setTags("interview")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>interview
@@ -180,13 +212,14 @@ const Blog = () => {
 
             {tags === "all" ||
             tags === "2024" ||
+            tags === "books" ||
             tags === "review" ||
             tags === "on-site" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">R</span>eview of The Boy to
-                    Beat the Gods
+                    <span className="accent-blog">R</span>eview of{" "}
+                    <span className="italics">The Boy to Beat the Gods</span>
                   </div>
                   <div>
                     <img
@@ -197,7 +230,8 @@ const Blog = () => {
                   </div>
                   <div className="blog-date"> July 2024</div>
                   <div className="blog-info">
-                    A review of Ashley Thorpe's debut middle-grade novel, {" "}
+                    A review of Ashley Thorpe's West African rooted magical
+                    debut middle-grade novel,{" "}
                     <span className="italics">The Boy to Beat the Gods</span>.
                   </div>
                   <div className="blog-see-more">
@@ -217,6 +251,11 @@ const Blog = () => {
                         <span className="accent-blog">#</span>on-site
                       </span>
                     </button>{" "}
+                    <button onClick={() => setTags("books")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>books
+                      </span>
+                    </button>{" "}
                     <button onClick={() => setTags("review")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>review
@@ -231,13 +270,16 @@ const Blog = () => {
 
             {tags === "all" ||
             tags === "2021" ||
+            tags === "books" ||
             tags === "feature" ||
             tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">W</span>orld Book Day "Cosy
-                    Read" feature
+                    <span className="italics">
+                      <span className="accent-blog">W</span>orld Book Day
+                    </span>{" "}
+                    "Cosy Read" feature
                   </div>
                   <div>
                     <img
@@ -249,8 +291,8 @@ const Blog = () => {
                   <div className="blog-date"> October 2021</div>
                   <div className="blog-info">
                     <span className="italics">A Discovery Disappears</span>{" "}
-                    featured on World Book Day's list of reading recommendations
-                    as a "Cosy Read".
+                    featured on <span className="italics">World Book Day</span>
+                    's list of reading recommendations as a "Cosy Read".
                   </div>
                   <div className="blog-see-more">
                     <span className="blog-link">
@@ -274,6 +316,11 @@ const Blog = () => {
                         <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
+                    <button onClick={() => setTags("books")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>books
+                      </span>
+                    </button>{" "}
                     <button onClick={() => setTags("feature")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>feature
@@ -288,12 +335,15 @@ const Blog = () => {
 
             {tags === "all" ||
             tags === "2021" ||
+            tags === "books" ||
             tags === "article" ||
             tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">T</span>he Bookseller
+                    <span className="italics">
+                      <span className="accent-blog">T</span>he Bookseller
+                    </span>{" "}
                     acquisition article
                   </div>
                   <div>
@@ -305,8 +355,9 @@ const Blog = () => {
                   </div>
                   <div className="blog-date"> March 2021</div>
                   <div className="blog-info">
-                    The Bookseller: "Sweet Cherry acquires Pip Murphy detective
-                    series" article by Ruth Comerford.
+                    <span className="italics">The Bookseller</span>: "Sweet
+                    Cherry acquires Pip Murphy detective series" article by Ruth
+                    Comerford.
                   </div>
                   <div className="blog-see-more">
                     <span className="blog-link">
@@ -330,6 +381,11 @@ const Blog = () => {
                         <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
+                    <button onClick={() => setTags("books")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>books
+                      </span>
+                    </button>{" "}
                     <button onClick={() => setTags("article")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>article
@@ -343,14 +399,74 @@ const Blog = () => {
             )}
 
             {tags === "all" ||
+            tags === "2021" ||
+            tags === "dolls" ||
+            tags === "review" ||
+            tags === "on-site" ? (
+              <>
+                <li>
+                  <div className="blog-title">
+                    <span className="accent-blog">R</span>eview of{" "}
+                    <span className="italics">DearMine</span>'s{" "}
+                    <span className="italics">Sesame</span> body
+                  </div>
+                  <div>
+                    <img
+                      src={blogbannerreviewdearsesames}
+                      className="blog-img"
+                      alt="Review of Dear Sesame body"
+                    />
+                  </div>
+                  <div className="blog-date"> February 2021</div>
+                  <div className="blog-info">
+                    A review of <span className="italics">DearMine</span>'s new
+                    8.5cm tall <span className="italics">Sesame</span> body,
+                    along with comparison photos and posing pointers.
+                  </div>
+                  <div className="blog-see-more">
+                    <span className="blog-link">
+                      <Link to="/review-dearsesame">SEE MORE</Link>
+                    </span>
+                    <br />
+                  </div>
+                  <div className="blog-tags-section">
+                    <button onClick={() => setTags("2021")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>2021
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("on-site")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>on-site
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("dolls")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>dolls
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("review")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>review
+                      </span>
+                    </button>
+                  </div>
+                </li>
+              </>
+            ) : (
+              ""
+            )}
+
+            {tags === "all" ||
             tags === "2020" ||
+            tags === "art" ||
             tags === "article" ||
             tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">I</span>llustration on Tokyo
-                    Survival Channel
+                    <span className="accent-blog">I</span>llustration on{" "}
+                    <span className="italics">Tokyo Survival Channel</span>
                   </div>
                   <div>
                     <img
@@ -386,6 +502,11 @@ const Blog = () => {
                         <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
+                    <button onClick={() => setTags("art")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>art
+                      </span>
+                    </button>{" "}
                     <button onClick={() => setTags("article")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>article
@@ -400,13 +521,14 @@ const Blog = () => {
 
             {tags === "all" ||
             tags === "2020" ||
+            tags === "dolls" ||
             tags === "feature" ||
             tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
-                    <span className="accent-blog">W</span>on silver in 8th DOLK
-                    photo contest
+                    <span className="accent-blog">W</span>on silver in 8th{" "}
+                    <span className="italics">DOLK</span> photo contest
                   </div>
                   <div>
                     <img
@@ -417,8 +539,9 @@ const Blog = () => {
                   </div>
                   <div className="blog-date"> Spring 2020</div>
                   <div className="blog-info">
-                    Came 2nd (silver award) in the 8th DOLK Photo Contest with
-                    my photo of Tenka (a Black Box Mochi) in a sakura tree.
+                    Came 2nd (silver award) in the 8th{" "}
+                    <span className="italics">DOLK</span> Photo Contest with my
+                    photo of Tenka (a Black Box Mochi) in a sakura tree.
                   </div>
                   <div className="blog-see-more">
                     <span className="blog-link">
@@ -440,6 +563,11 @@ const Blog = () => {
                     <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
                         <span className="accent-blog">#</span>external-link
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("dolls")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>dolls
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("feature")}>

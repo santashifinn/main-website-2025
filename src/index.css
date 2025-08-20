@@ -414,14 +414,31 @@ main p {
 }
 
 .blog-twoparter1,
-.blog-twoparter2 {
+.blog-twoparter2, .blog-threeparter {
   text-align: center;
 }
 
-.blog-twoparter-img {
+.blog-twoparter-img,
+.blog-multipart-img-port,
+.blog-multipart-img-land {
   border: 1px solid #f0a544;
   border-radius: 8px;
   box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+}
+
+.blog-multipart-img-port,
+.blog-multipart-img-land {
+  margin-bottom: 20px;
+}
+
+.blog-multipart-span {
+  padding: 20px;
+  text-align: center;
+}
+
+.blog-multipart-captiontext {
+  font-size: 0.8rem;
+  padding-bottom: 20px;
 }
 
 /* Books */
@@ -962,6 +979,10 @@ main p {
     width: 45%;
   }
 
+  .blog-threeparter {
+    max-width: 30%;
+  }
+
   .blog-twoparter1 {
     left: 0;
   }
@@ -972,6 +993,16 @@ main p {
 
   .blog-twoparter-img {
     width: 500px;
+  }
+
+  .blog-multipart-img-port {
+    width: 400px;
+    max-width: 100%;
+  }
+
+  .blog-multipart-img-land {
+    width: 500px;
+    max-width: 100%;
   }
 
   /* Books */
@@ -1309,7 +1340,9 @@ main p {
     padding: 0 20px;
   }
 
-  .blog-twoparter-img {
+  .blog-twoparter-img,
+  .blog-multipart-img-port,
+  .blog-multipart-img-land {
     width: 90%;
   }
 
