@@ -21,7 +21,7 @@ const ChristieAgathaBook1CZ = () => {
           <p>
             <span className="strong">Publisher:</span> GRADA
             <br />
-            <span className="strong">Published:</span> 13. 3. 2025
+            <span className="strong">Published:</span> 12. 3. 2025
           </p>
           <h3>Where to Buy</h3>
           <p>

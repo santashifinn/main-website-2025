@@ -403,7 +403,26 @@ main p {
 }
 
 .blog-tags:hover {
-  text-decoration: underline;}
+  text-decoration: underline;
+}
+
+.blog-twoparter {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.blog-twoparter1,
+.blog-twoparter2 {
+  text-align: center;
+}
+
+.blog-twoparter-img {
+  border: 1px solid #f0a544;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+}
 
 /* Books */
 
@@ -524,6 +543,11 @@ main p {
 
 .books-individual-buy h3 {
   margin: 20px;
+}
+
+.books-individual-buy-lang {
+  margin: 20px;
+  line-height: 1.5rem;
 }
 
 .books-editions {
@@ -921,9 +945,33 @@ main p {
     height: 60px;
   }
 
-  /* blog */
+  /* Blog */
 
-  .blog {
+  .blog-twoparter {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .blog-twoparter h3 {
+    margin-bottom: 20px;
+  }
+
+  .blog-twoparter1,
+  .blog-twoparter2 {
+    width: 45%;
+  }
+
+  .blog-twoparter1 {
+    left: 0;
+  }
+
+  .blog-twoparter2 {
+    right: 0;
+  }
+
+  .blog-twoparter-img {
+    width: 500px;
   }
 
   /* Books */
@@ -1239,6 +1287,30 @@ main p {
 
   .icons {
     height: 60px;
+  }
+
+  /* Blog */
+
+  .blog-twoparter {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .blog-twoparter h3 {
+    margin: 20px;
+  }
+
+  .blog-twoparter1,
+  .blog-twoparter2 {
+    width: 100%;
+  }
+
+  .blog-twoparter2 {
+    padding: 0 20px;
+  }
+
+  .blog-twoparter-img {
+    width: 90%;
   }
 
   /* Books */

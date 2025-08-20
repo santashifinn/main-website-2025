@@ -83,6 +83,11 @@ const Blog = () => {
                     <span className="accent-blog">#</span>interview
                   </span>
                 </button>{" "}
+                <button onClick={() => setTags("review")}>
+                  <span className="blog-tags">
+                    <span className="accent-blog">#</span>review
+                  </span>
+                </button>{" "}
                 <br />
                 <span className="strong">Other: </span>{" "}
                 <button onClick={() => setTags("all")}>
@@ -92,12 +97,12 @@ const Blog = () => {
                 </button>{" "}
                 <button onClick={() => setTags("on-site")}>
                   <span className="blog-tags">
-                    <span className="accent-blog">#</span>on site
+                    <span className="accent-blog">#</span>on-site
                   </span>
                 </button>{" "}
-                <button onClick={() => setTags("external")}>
+                <button onClick={() => setTags("external-link")}>
                   <span className="blog-tags">
-                    <span className="accent-blog">#</span>external
+                    <span className="accent-blog">#</span>external-link
                   </span>
                 </button>
               </p>
@@ -112,7 +117,7 @@ const Blog = () => {
             {tags === "all" ||
             tags === "2024" ||
             tags === "interview" ||
-            tags === "external" ? (
+            tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
@@ -156,9 +161,9 @@ const Blog = () => {
                         <span className="accent-blog">#</span>2024
                       </span>
                     </button>{" "}
-                    <button onClick={() => setTags("external")}>
+                    <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
-                        <span className="accent-blog">#</span>external
+                        <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("interview")}>
@@ -174,9 +179,60 @@ const Blog = () => {
             )}
 
             {tags === "all" ||
+            tags === "2024" ||
+            tags === "review" ||
+            tags === "on-site" ? (
+              <>
+                <li>
+                  <div className="blog-title">
+                    <span className="accent-blog">R</span>eview of The Boy to
+                    Beat the Gods
+                  </div>
+                  <div>
+                    <img
+                      src={blogbannerreviewboytobeatthegods}
+                      className="blog-img"
+                      alt="Review of The Boy to Beat the Gods"
+                    />
+                  </div>
+                  <div className="blog-date"> July 2024</div>
+                  <div className="blog-info">
+                    A review of Ashley Thorpe's debut middle-grade novel, {" "}
+                    <span className="italics">The Boy to Beat the Gods</span>.
+                  </div>
+                  <div className="blog-see-more">
+                    <span className="blog-link">
+                      <Link to="/review-boytobeatthegods">SEE MORE</Link>
+                    </span>
+                    <br />
+                  </div>
+                  <div className="blog-tags-section">
+                    <button onClick={() => setTags("2024")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>2024
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("on-site")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>on-site
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("review")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>review
+                      </span>
+                    </button>
+                  </div>
+                </li>
+              </>
+            ) : (
+              ""
+            )}
+
+            {tags === "all" ||
             tags === "2021" ||
             tags === "feature" ||
-            tags === "external" ? (
+            tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
@@ -213,9 +269,9 @@ const Blog = () => {
                         <span className="accent-blog">#</span>2021
                       </span>
                     </button>{" "}
-                    <button onClick={() => setTags("external")}>
+                    <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
-                        <span className="accent-blog">#</span>external
+                        <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("feature")}>
@@ -233,7 +289,7 @@ const Blog = () => {
             {tags === "all" ||
             tags === "2021" ||
             tags === "article" ||
-            tags === "external" ? (
+            tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
@@ -269,9 +325,9 @@ const Blog = () => {
                         <span className="accent-blog">#</span>2021
                       </span>
                     </button>{" "}
-                    <button onClick={() => setTags("external")}>
+                    <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
-                        <span className="accent-blog">#</span>external
+                        <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("article")}>
@@ -289,7 +345,7 @@ const Blog = () => {
             {tags === "all" ||
             tags === "2020" ||
             tags === "article" ||
-            tags === "external" ? (
+            tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
@@ -325,9 +381,9 @@ const Blog = () => {
                         <span className="accent-blog">#</span>2020
                       </span>
                     </button>{" "}
-                    <button onClick={() => setTags("external")}>
+                    <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
-                        <span className="accent-blog">#</span>external
+                        <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("article")}>
@@ -345,7 +401,7 @@ const Blog = () => {
             {tags === "all" ||
             tags === "2020" ||
             tags === "feature" ||
-            tags === "external" ? (
+            tags === "external-link" ? (
               <>
                 <li>
                   <div className="blog-title">
@@ -381,9 +437,9 @@ const Blog = () => {
                         <span className="accent-blog">#</span>2020
                       </span>
                     </button>{" "}
-                    <button onClick={() => setTags("external")}>
+                    <button onClick={() => setTags("external-link")}>
                       <span className="blog-tags">
-                        <span className="accent-blog">#</span>external
+                        <span className="accent-blog">#</span>external-link
                       </span>
                     </button>{" "}
                     <button onClick={() => setTags("feature")}>

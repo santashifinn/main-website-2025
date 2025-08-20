@@ -31,6 +31,7 @@ import OtherBooks from "./OtherBooks";
 import UselessPrince from "./UselessPrince";
 import ShortStoryTheDoppelganger from "./ShortStoryTheDoppelganger";
 import ProjectSixthEntryOld from "./ProjectSixthEntryOld";
+import ReviewBoyToBeatTheGods from "./ReviewBoyToBeatTheGods";
 
 const App = () => {
   return (
@@ -45,11 +46,17 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/blog" element={<Blog />} />
+          <Route
+            path="/review-boytobeatthegods"
+            element={<ReviewBoyToBeatTheGods />}
+          />
+
           <Route path="/books" element={<Books />} />
           <Route path="/christieandagatha" element={<ChristieAgathaBooks />}>
             <Route
-              path="/christieandagatha/book1/"
+              path="/christieandagatha/book1"
               element={<ChristieAgathaBook1 />}
             />
             <Route
