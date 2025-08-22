@@ -406,7 +406,8 @@ main p {
   text-decoration: underline;
 }
 
-.blog-twoparter {
+.blog-twoparter,
+.blog-books-covers-pair {
   width: 100%;
   display: inline-flex;
   flex-wrap: wrap;
@@ -414,13 +415,15 @@ main p {
 }
 
 .blog-twoparter1,
-.blog-twoparter2, .blog-threeparter {
+.blog-twoparter2,
+.blog-threeparter {
   text-align: center;
 }
 
 .blog-twoparter-img,
 .blog-multipart-img-port,
-.blog-multipart-img-land {
+.blog-multipart-img-land,
+.blog-multipart-img-span {
   border: 1px solid #f0a544;
   border-radius: 8px;
   box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
@@ -431,6 +434,10 @@ main p {
   margin-bottom: 20px;
 }
 
+.blog-multipart-img-span {
+  width: 100%;
+}
+
 .blog-multipart-span {
   padding: 20px;
   text-align: center;
@@ -439,6 +446,25 @@ main p {
 .blog-multipart-captiontext {
   font-size: 0.8rem;
   padding-bottom: 20px;
+}
+
+.blog-books-covers {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.blog-books-covers-sec {
+  text-align: center;
+}
+
+.blog-books-covers-img-many,
+.blog-books-covers-img-pair {
+  border: 1px solid #f0a544;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+  max-width: 100%;
 }
 
 /* Books */
@@ -964,7 +990,8 @@ main p {
 
   /* Blog */
 
-  .blog-twoparter {
+  .blog-twoparter,
+  .blog-books-covers-pair {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1003,6 +1030,30 @@ main p {
   .blog-multipart-img-land {
     width: 500px;
     max-width: 100%;
+  }
+
+  .blog-books-covers {
+    margin: 30px 0;
+  }
+
+  .blog-books-covers-sec {
+    width: 17%;
+    margin: 0 10px;
+  }
+
+  .blog-books-covers-img-many {
+    width: 100%;
+  }
+
+  .blog-books-covers-pair {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .blog-books-covers-img-pair {
+    height: 100%;
+    max-height: 700px;
   }
 
   /* Books */
@@ -1346,6 +1397,25 @@ main p {
     width: 90%;
   }
 
+  .blog-books-covers {
+  }
+
+  .blog-books-covers-img-many {
+    height: auto;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .blog-books-covers-pair {
+    margin: 30px 0;
+  }
+
+  .blog-books-covers-img-pair {
+    height: auto;
+    width: 45%;
+    margin: 10px;
+  }
+
   /* Books */
 
   .books {
@@ -1458,6 +1528,25 @@ main p {
     max-width: 100%;
   }
 
+  .blog-twoparter {
+    margin: 0;
+  }
+
+  .blog-books-covers-img-many {
+    height: auto;
+    width: 90%;
+    margin: 10px;
+  }
+
+  .blog-books-covers-pair {
+    margin: 0;
+  }
+
+  .blog-books-covers-img-pair {
+    height: auto;
+    width: 90%;
+  }
+
   /* Books */
 
   .books-covers {
@@ -1509,6 +1598,18 @@ main p {
 /* Medium phone screen CSS */
 
 @media only screen and (max-width: 374px) {
+  /* Blog */
+
+  .blog-books-covers {
+    row-gap: 20px;
+  }
+
+  .blog-books-covers-img {
+    height: auto;
+    width: 90%;
+    margin: 10px;
+  }
+
   /* Books */
 
   .books {

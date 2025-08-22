@@ -6,9 +6,9 @@ import blogbannerworldbookday from "/assets/blog-banner-worldbookday.png";
 import blogbannerbookseller from "/assets/blog-banner-bookseller.png";
 import blogbannertokyosurvivalchannel from "/assets/blog-banner-tokyosurvivalchannel.png";
 import blogbannerdolkphotocontest from "/assets/blog-banner-dolkphotocontest.png";
-
 import blogbannerreviewboytobeatthegods from "/assets/blog-banner-reviewboytobeatthegods.png";
 import blogbannerreviewdearsesames from "/assets/blog-banner-reviewdearsesame.png";
+import blogbannerchristieandagathaintranslation from "/assets/blog-banner-christieandagathaintranslation.png";
 
 const Blog = () => {
   const [tags, setTags] = useState("all");
@@ -136,6 +136,68 @@ const Blog = () => {
 
         <section className="blog-list">
           <ul>
+            {tags === "all" ||
+            tags === "2025" ||
+            tags === "books" ||
+            tags === "feature" ||
+            tags === "on-site" ? (
+              <>
+                <li>
+                  <div className="blog-title">
+                    <span className="italics">
+                      <span className="accent-blog">C</span>hristie and Agatha
+                    </span>{" "}
+                    in translation
+                  </div>
+                  <div>
+                    <img
+                      src={blogbannerchristieandagathaintranslation}
+                      className="blog-img"
+                      alt="A Discovery Disappears covers in German, Polish and Arabic"
+                    />
+                  </div>
+                  <div className="blog-date"> August 2025</div>
+                  <div className="blog-info">
+                    A peek at the covers of some of the translated overseas
+                    editions of the{" "}
+                    <span className="italics">Christie and Agatha</span> series.
+                  </div>
+                  <div className="blog-see-more">
+                    <span className="blog-link">
+                      <Link to="/feature-christieandagathaintranslation">
+                        SEE MORE
+                      </Link>
+                    </span>
+                    <br />
+                  </div>
+                  <div className="blog-tags-section">
+                    <button onClick={() => setTags("2025")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>2025
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("on-site")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>on-site
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("books")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>books
+                      </span>
+                    </button>{" "}
+                    <button onClick={() => setTags("feature")}>
+                      <span className="blog-tags">
+                        <span className="accent-blog">#</span>feature
+                      </span>
+                    </button>
+                  </div>
+                </li>
+              </>
+            ) : (
+              ""
+            )}
+
             {tags === "all" ||
             tags === "2024" ||
             tags === "books" ||

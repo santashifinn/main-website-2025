@@ -33,6 +33,7 @@ import ShortStoryTheDoppelganger from "./ShortStoryTheDoppelganger";
 import ProjectSixthEntryOld from "./ProjectSixthEntryOld";
 import ReviewBoyToBeatTheGods from "./ReviewBoyToBeatTheGods";
 import ReviewDearSesame from "./ReviewDearSesame";
+import FeatureChristieAndAgathaInTranslation from "./FeatureChristieAndAgathaInTranslation";
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
             element={<ReviewBoyToBeatTheGods />}
           />
           <Route path="/review-dearsesame" element={<ReviewDearSesame />} />
+          <Route path="/feature-christieandagathaintranslation" element={<FeatureChristieAndAgathaInTranslation />} />
 
           <Route path="/books" element={<Books />} />
           <Route path="/christieandagatha" element={<ChristieAgathaBooks />}>
