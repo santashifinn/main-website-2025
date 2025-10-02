@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import christieagathabk1point5_0 from "/assets/christieagathabook1point5.jpg";
 
+import christieagathabk1point5_book from "/assets/christieagathabook1point5ebook.pdf";
+
 const ChristieAgathaBook1Point5 = () => {
   return (
     <>
@@ -44,8 +46,16 @@ const ChristieAgathaBook1Point5 = () => {
           </section>
           <section className="books-individual-buy">
             <h3>E-book</h3>
-            <button className="books-buy-button">Read the ebook here</button>
-            
+            <a href={christieagathabk1point5_book} target="_blank">
+              <button className="books-buy-button">Download the ebook</button>
+            </a>
+            <p>
+              {" "}
+              *I wrote this short story pro gratis and it is available for free
+              here and from <span className="italics">Sweet Cherry</span>, so
+              please avoid/report any sites trying to monetise it!
+            </p>
+
             <h3>Video</h3>
             <iframe
               id="videoframebig"
