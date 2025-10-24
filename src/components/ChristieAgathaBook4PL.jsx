@@ -1,40 +1,38 @@
-import christieagathabk3_0 from "/assets/christieagathabook3pl.jpg";
+import christieagathabk4_0 from "/assets/christieagathabook4pl.jpg";
 
-const ChristieAgathaBook3PL = () => {
+const ChristieAgathaBook4PL = () => {
   return (
     <>
       <section className="books-editions">
         <section className="books-editions1">
           <img
-            src={christieagathabk3_0}
+            src={christieagathabk4_0}
             className="books-editions-img"
-            alt="Agencja detektywistyczna Christie i Agaty. Tom 3. Kradzież w
-              Dolinie Królów"
+            alt="Agencja detektywistyczna Christie i Agaty. Tom 4. Okup na Riwierze"
           />
         </section>
         <section className="books-editions2">
           <h3>Polish Edition</h3>
           <p>
             <span className="italics">
-              Agencja detektywistyczna Christie i Agaty. Tom 3. Kradzież w
-              Dolinie Królów
+              Agencja detektywistyczna Christie i Agaty. Tom 4. Okup na Riwierze
             </span>
           </p>
           <p>
             <span className="strong">Publisher:</span> Tandem
             <br />
-            <span className="strong">Published:</span> 08. 10. 2025
+            <span className="strong">Published:</span> 12. 11. 2025
           </p>
           <h3>Where to Buy</h3>
           <p>
             <a
-              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-3-kradziez-w-dolinie-krolow/"
+              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-4-okup-na-riwierze/"
               target="_blank"
             >
               <button className="books-buy-button">Tandem</button>
             </a>
             <a
-              href="https://www.gandalf.com.pl/b/kradziez-w-dolinie-krolow-agencja/"
+              href="https://www.gandalf.com.pl/b/okup-na-riwierze-agencja/"
               target="_blank"
             >
               <button className="books-buy-button">Gandalf</button>
@@ -46,4 +44,4 @@ const ChristieAgathaBook3PL = () => {
   );
 };
 
-export default ChristieAgathaBook3PL;
+export default ChristieAgathaBook4PL;
