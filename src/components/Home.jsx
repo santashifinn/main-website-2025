@@ -146,12 +146,25 @@ const Home = () => {
               <span className="accent-home">U</span>PCOMING
             </h1>
             <p>
-              <span className="upcomingbutton">BOOK</span> 16th October 2025 -
+              <span className="upcomingbutton">BOOK</span>{" "}
+              <span className="strong">12th November 2025</span> -{" "}
               <span className="italics">
-                Detektivagentur Christie & Agatha – Raub im Wüstensand
-                (Christies & Agathas Fälle 3){" "}
+                Agencja detektywistyczna Christie i Agaty. Tom 4. Okup na
+                Riwierze{" "}
               </span>
-              - German edition of 3rd Christie and Agatha book
+              (Polish edition of Christie and Agatha Book 4) released
+            </p>
+            <p>
+              <span className="upcomingbutton">BOOK</span>{" "}
+              <span className="strong">July 2026</span> -{" "}
+              <span className="italics">A Curious Catastrophe </span> (Christie
+              and Agatha Book 8) released
+            </p>
+            <p>
+              <span className="upcomingbutton">BOOK</span>{" "}
+              <span className="strong">September 2026</span> -{" "}
+              <span className="italics">A Puzzle in Plane Sight</span> (Christie
+              and Agatha Book 9) released
             </p>
           </section>
         </section>
