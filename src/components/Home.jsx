@@ -156,6 +156,14 @@ const Home = () => {
             </p>
             <p>
               <span className="upcomingbutton">BOOK</span>{" "}
+              <span className="strong">15th May 2026</span> -{" "}
+              <span className="italics">
+                Detektivagentur Christie & Agatha – Entführung im Grandhotel{" "}
+              </span>{" "}
+              (German edition of Christie and Agatha Book 4) released
+            </p>
+            <p>
+              <span className="upcomingbutton">BOOK</span>{" "}
               <span className="strong">July 2026</span> -{" "}
               <span className="italics">A Curious Catastrophe </span> (Christie
               and Agatha Book 8) released
