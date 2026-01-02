@@ -147,15 +147,6 @@ const Home = () => {
             </h1>
             <p>
               <span className="upcomingbutton">BOOK</span>{" "}
-              <span className="strong">12th November 2025</span> -{" "}
-              <span className="italics">
-                Agencja detektywistyczna Christie i Agaty. Tom 4. Okup na
-                Riwierze{" "}
-              </span>
-              (Polish edition of Christie and Agatha Book 4) released
-            </p>
-            <p>
-              <span className="upcomingbutton">BOOK</span>{" "}
               <span className="strong">15th May 2026</span> -{" "}
               <span className="italics">
                 Detektivagentur Christie & Agatha – Entführung im Grandhotel{" "}
