@@ -14,6 +14,7 @@ import ChristieAgathaBook1CZ from "./ChristieAgathaBook1CZ";
 import ChristieAgathaBook1SK from "./ChristieAgathaBook1SK";
 import ChristieAgathaBook1TR from "./ChristieAgathaBook1TR";
 import ChristieAgathaBook1AR from "./ChristieAgathaBook1AR";
+import ChristieAgathaBook1RO from "./ChristieAgathaBook1RO";
 
 const ChristieAgathaBook1 = () => {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
@@ -140,89 +141,98 @@ const ChristieAgathaBook1 = () => {
             <h3>Editions & Where to Buy</h3>
 
             <section className="books-individual-buy-lang">
-
-                <button onClick={() => setBookEdition("EN")}>
-                  <span className="underline">
-                    {bookEdition === "EN" ? (
-                      <span className="strong">English (UK)</span>
-                    ) : (
-                      "English (UK)"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("EN2")}>
-                  <span className="underline">
-                    {bookEdition === "EN2" ? (
-                      <span className="strong">English (Outside UK)</span>
-                    ) : (
-                      "English (Outside UK)"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("DE")}>
-                  <span className="underline">
-                    {" "}
-                    {bookEdition === "DE" ? (
-                      <span className="strong">German</span>
-                    ) : (
-                      "German"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("PL")}>
-                  <span className="underline">
-                    {bookEdition === "PL" ? (
-                      <span className="strong">Polish</span>
-                    ) : (
-                      "Polish"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("CZ")}>
-                  <span className="underline">
-                    {bookEdition === "CZ" ? (
-                      <span className="strong">Czech</span>
-                    ) : (
-                      "Czech"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("SK")}>
-                  <span className="underline">
-                    {bookEdition === "SK" ? (
-                      <span className="strong">Slovak</span>
-                    ) : (
-                      "Slovak"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>
-                <button onClick={() => setBookEdition("TR")}>
-                  <span className="underline">
-                    {" "}
-                    {bookEdition === "TR" ? (
-                      <span className="strong">Turkish</span>
-                    ) : (
-                      "Turkish"
-                    )}
-                  </span>
-                </button>
-                <span className="accent-books">{" • "}</span>{" "}
-                <button onClick={() => setBookEdition("AR")}>
-                  <span className="underline">
-                    {bookEdition === "AR" ? (
-                      <span className="strong">Arabic</span>
-                    ) : (
-                      "Arabic"
-                    )}
-                  </span>
-                </button>
-
+              <button onClick={() => setBookEdition("EN")}>
+                <span className="underline">
+                  {bookEdition === "EN" ? (
+                    <span className="strong">English (UK)</span>
+                  ) : (
+                    "English (UK)"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("EN2")}>
+                <span className="underline">
+                  {bookEdition === "EN2" ? (
+                    <span className="strong">English (Outside UK)</span>
+                  ) : (
+                    "English (Outside UK)"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("DE")}>
+                <span className="underline">
+                  {" "}
+                  {bookEdition === "DE" ? (
+                    <span className="strong">German</span>
+                  ) : (
+                    "German"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("PL")}>
+                <span className="underline">
+                  {bookEdition === "PL" ? (
+                    <span className="strong">Polish</span>
+                  ) : (
+                    "Polish"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("CZ")}>
+                <span className="underline">
+                  {bookEdition === "CZ" ? (
+                    <span className="strong">Czech</span>
+                  ) : (
+                    "Czech"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("SK")}>
+                <span className="underline">
+                  {bookEdition === "SK" ? (
+                    <span className="strong">Slovak</span>
+                  ) : (
+                    "Slovak"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("RO")}>
+                <span className="underline">
+                  {" "}
+                  {bookEdition === "RO" ? (
+                    <span className="strong">Romanian</span>
+                  ) : (
+                    "Romanian"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>
+              <button onClick={() => setBookEdition("TR")}>
+                <span className="underline">
+                  {" "}
+                  {bookEdition === "TR" ? (
+                    <span className="strong">Turkish</span>
+                  ) : (
+                    "Turkish"
+                  )}
+                </span>
+              </button>
+              <span className="accent-books">{" • "}</span>{" "}
+              <button onClick={() => setBookEdition("AR")}>
+                <span className="underline">
+                  {bookEdition === "AR" ? (
+                    <span className="strong">Arabic</span>
+                  ) : (
+                    "Arabic"
+                  )}
+                </span>
+              </button>
             </section>
 
             {bookEdition === "DE" ? (
@@ -233,6 +243,8 @@ const ChristieAgathaBook1 = () => {
               <ChristieAgathaBook1CZ />
             ) : bookEdition === "SK" ? (
               <ChristieAgathaBook1SK />
+            ) : bookEdition === "RO" ? (
+              <ChristieAgathaBook1RO />
             ) : bookEdition === "TR" ? (
               <ChristieAgathaBook1TR />
             ) : bookEdition === "AR" ? (
