@@ -8,6 +8,7 @@ import christieagathabk4_0 from "/assets/christieagathabook4.jpg";
 import christieagathabk5_0 from "/assets/christieagathabook5.jpg";
 import christieagathabk6_0 from "/assets/christieagathabook6.jpg";
 import christieagathabk7_0 from "/assets/christieagathabook7.jpg";
+import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
 
 const ChristieAgathaBookList = () => {
   return (
@@ -68,6 +69,13 @@ const ChristieAgathaBookList = () => {
               src={christieagathabk7_0}
               className="books-covers-img-smol"
               alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
+            />
+          </Link>
+          <Link to="/christieandagatha/book8">
+            <img
+              src={christieagathabk8_0}
+              className="books-covers-img-smol"
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
             />
           </Link>
         </section>

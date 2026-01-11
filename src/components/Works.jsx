@@ -14,6 +14,23 @@ const Works = () => {
         <section className="publications">
           <ul>
             <li>
+              <div className="publication-type-mg-novel">MG NOVEL</div>
+              <div className="publication-title">
+                Christie and Agatha's Detective Agency Book 8: A Curious
+                Catastrophe
+              </div>
+              <div className="publication-date">May 2026</div>
+              <div className="publication-publisher">
+                Published by{" "}
+                <span className="publication-link">
+                  <a href="https://sweetcherrypublishing.com" target="_blank">
+                    Sweet Cherry Publishing
+                  </a>
+                </span>
+              </div>
+            </li>
+
+            <li>
               <div className="publication-type-short-story">SHORT STORY</div>
               <div className="publication-title">Bathhouse</div>
               <div className="publication-date">March 2025</div>
@@ -83,9 +100,7 @@ const Works = () => {
 
             <li>
               <div className="publication-type-comic">COMIC</div>
-              <div className="publication-title">
-                MYSTERIFUL DESPAIR
-              </div>
+              <div className="publication-title">MYSTERIFUL DESPAIR</div>
               <div className="publication-date">December 2023</div>
               <div className="publication-publisher">Self published</div>
             </li>

@@ -8,6 +8,7 @@ import christieagathabk4_0 from "/assets/christieagathabook4.jpg";
 import christieagathabk5_0 from "/assets/christieagathabook5.jpg";
 import christieagathabk6_0 from "/assets/christieagathabook6.jpg";
 import christieagathabk7_0 from "/assets/christieagathabook7.jpg";
+import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
 
 import awtletbk1_0 from "/assets/awtletbook1.jpg";
 import awtletbk2_0 from "/assets/awtletbook2.jpg";
@@ -87,9 +88,9 @@ const Books = () => {
           fictionalise real-life discoveries and events from around the 1920s -
           with a whodunnit twist.
           <br />
-          After getting into a scrape, twin sisters
-          tomboy Christie and timid Agatha discover that together they make the
-          perfect mystery-solving duo!
+          After getting into a scrape, twin sisters tomboy Christie and timid
+          Agatha discover that together they make the perfect mystery-solving
+          duo!
         </p>
         <p>
           (Published by <span className="strong">Sweet Cherry Publishing</span>,
@@ -152,6 +153,13 @@ const Books = () => {
               src={christieagathabk7_0}
               className="books-covers-img"
               alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
+            />
+          </Link>
+          <Link to="/christieandagatha/book8">
+            <img
+              src={christieagathabk8_0}
+              className="books-covers-img"
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
             />
           </Link>
         </section>
