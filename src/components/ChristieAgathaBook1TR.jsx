@@ -23,6 +23,9 @@ const ChristieAgathaBook1TR = () => {
             <br />
             <span className="strong">Published:</span> 26. 10. 2023
           </p>
+          <p>
+            <span className="strong">Translator:</span> Özge Nur Küskün
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a

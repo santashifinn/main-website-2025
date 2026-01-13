@@ -25,6 +25,9 @@ const ChristieAgathaBook2TR = () => {
             <br />
             <span className="strong">Published:</span> 20. 2. 2024
           </p>
+          <p>
+            <span className="strong">Translator:</span> Özge Nur Küskün
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a

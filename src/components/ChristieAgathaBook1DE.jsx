@@ -23,6 +23,11 @@ const ChristieAgathaBook1DE = () => {
             <br />
             <span className="strong">Published:</span> 13. 3. 2025
           </p>
+          <p>
+            <span className="strong">Translator:</span> Karolin Viseneber
+            <br />
+            <span className="strong">Audiobook narrator:</span> Anna Thalbach
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a

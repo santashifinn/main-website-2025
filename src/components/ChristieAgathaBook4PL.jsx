@@ -23,6 +23,12 @@ const ChristieAgathaBook4PL = () => {
             <br />
             <span className="strong">Published:</span> 12. 11. 2025
           </p>
+          <p>
+            <span className="strong">Translator:</span> Marta Szelichowska
+            <br />
+            <span className="strong">Audiobook narrator:</span> Lena
+            Schimscheiner
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a

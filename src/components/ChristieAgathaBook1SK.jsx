@@ -23,6 +23,9 @@ const ChristieAgathaBook1SK = () => {
             <br />
             <span className="strong">Published:</span> 4. 2024
           </p>
+          <p>
+            <span className="strong">Translator:</span> Júlia Zelenčíková
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a

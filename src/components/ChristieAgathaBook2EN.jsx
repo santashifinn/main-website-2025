@@ -18,6 +18,9 @@ const ChristieAgathaBook2EN = () => {
             <br />
             <span className="strong">Published:</span> 2. 2022
           </p>
+          <p>
+            <span className="strong">Audiobook narrator:</span> Vanessa Labrie
+          </p>
           <h3>Where to Buy</h3>
           <p>
             <a
