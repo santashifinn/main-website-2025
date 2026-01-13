@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import projectbannerawtlet from "/assets/project-banner-awtlet.png";
 import projectbannerlaurus from "/assets/project-banner-laurus.png";
 import projectbannersixthentryold from "/assets/project-banner-sixthentryold.png";
-import projectbannerartouch from "/assets/project-banner-artouch.png";
+// import projectbannerartouch from "/assets/project-banner-artouch.png";
 
 const Projects = () => {
   return (
@@ -66,7 +66,7 @@ const Projects = () => {
               </div>
             </li>
 
-            <li>
+            {/* <li>
               <div className="projects-title">
                 <span className="accent-projects">A</span>RTouch ☜
               </div>
@@ -90,7 +90,7 @@ const Projects = () => {
                   </a>
                 </span>
               </div>
-            </li>
+            </li> */}
 
             <li>
               <div className="projects-title">
