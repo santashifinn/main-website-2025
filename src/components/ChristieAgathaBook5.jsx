@@ -8,6 +8,7 @@ import christieagathabk5_3 from "/assets/christieagathabook5preview2.jpg";
 import reviewsgoodreads from "/assets/contactgoodreadsreviews.png";
 import ChristieAgathaBook5EN from "./ChristieAgathaBook5EN";
 import ChristieAgathaBook5EN2 from "./ChristieAgathaBook5EN2";
+import ChristieAgathaBook5PL from "./ChristieAgathaBook5PL";
 
 const ChristieAgathaBook5 = () => {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
@@ -109,17 +110,18 @@ const ChristieAgathaBook5 = () => {
           <section className="books-individual-info">
             <p>
               <span className="italics">
-                "If you want to see your cousin again, come to the old quay at
-                seven tomorrow night, alone. Be prepared to be married. Do not
-                involve the police."
+                "Einstein will be all ready to deliver his oh-so-important
+                speech … only to find that he doesn’t have the equipment to
+                deliver it with!"
               </span>
             </p>
             <p>
-              A relaxing break on the French Riviera becomes a dramatic
-              investigation when famous physicist, Irène Curie, receives a
-              ransom note demanding her hand in marriage. What’s more, Christie
-              and Agatha’s friend has been kidnapped! Can the twins find out who
-              is behind the ransom note and save both Auguste and Miss Curie?
+              Christie dreams of a train adventure – the kind she’s read about
+              in fiction. But Christie and Agatha’s journey aboard the Green
+              Express, with company including Albert Einstein, is more than even
+              they bargained for. The twins uncover a plot to sabotage the
+              physicist’s radio broadcast, and it’s all up to them to thwart it
+              before their journey ends.
             </p>
             <p>
               <span className="strong">Reading age:</span> 7 years+
@@ -154,9 +156,22 @@ const ChristieAgathaBook5 = () => {
                   )}
                 </span>
               </button>
+              <span className="accent-books">{" • "}</span>{" "}
+              <button onClick={() => setBookEdition("PL")}>
+                <span className="underline">
+                  {" "}
+                  {bookEdition === "PL" ? (
+                    <span className="strong">Polish</span>
+                  ) : (
+                    "Polish"
+                  )}
+                </span>
+              </button>
             </p>
 
-            {bookEdition === "EN2" ? (
+            {bookEdition === "PL" ? (
+              <ChristieAgathaBook5PL />
+            ) : bookEdition === "EN2" ? (
               <ChristieAgathaBook5EN2 />
             ) : (
               <ChristieAgathaBook5EN />

@@ -148,22 +148,33 @@ const Home = () => {
             <p>
               <p>
                 <span className="upcomingbutton">BOOK</span>{" "}
+                <span className="strong">6th February 2026</span> -{" "}
+                <span className="italics">
+                  Agencja detektywistyczna Christie i Agaty. Tom 5. Geniusz w
+                  Zielonym Ekspresie{" "}
+                </span>{" "}
+                (Polish edition of Christie and Agatha Book 5) released
+              </p>
+              <p>
+                <span className="upcomingbutton">BOOK</span>{" "}
                 <span className="strong">14th May 2026</span> -{" "}
                 <span className="italics">A Curious Catastrophe </span>{" "}
                 (Christie and Agatha Book 8) released
               </p>
-              <span className="upcomingbutton">BOOK</span>{" "}
-              <span className="strong">15th May 2026</span> -{" "}
-              <span className="italics">
-                Detektivagentur Christie & Agatha – Entführung im Grandhotel{" "}
-              </span>{" "}
-              (German edition of Christie and Agatha Book 4) released
-            </p>
-            <p>
-              <span className="upcomingbutton">BOOK</span>{" "}
-              <span className="strong">September 2026</span> -{" "}
-              <span className="italics">A Puzzle in Plane Sight</span> (Christie
-              and Agatha Book 9) released
+              <p>
+                <span className="upcomingbutton">BOOK</span>{" "}
+                <span className="strong">15th May 2026</span> -{" "}
+                <span className="italics">
+                  Detektivagentur Christie & Agatha – Entführung im Grandhotel{" "}
+                </span>{" "}
+                (German edition of Christie and Agatha Book 4) released
+              </p>
+              <p>
+                <span className="upcomingbutton">BOOK</span>{" "}
+                <span className="strong">September 2026</span> -{" "}
+                <span className="italics">A Puzzle in Plane Sight</span>{" "}
+                (Christie and Agatha Book 9) released
+              </p>
             </p>
           </section>
         </section>
