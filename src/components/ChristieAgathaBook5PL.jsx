@@ -32,13 +32,13 @@ const ChristieAgathaBook5PL = () => {
           </p>
           <h3>Where to Buy</h3>
           <p>
-            {/* <a
-              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-4-okup-na-riwierze/"
+            <a
+              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-5-geniusz-w-zielonym-ekspresie/"
               target="_blank"
             >
               <button className="books-buy-button">Tandem</button>
             </a>
-            <a
+            {/* <a
               href="https://www.gandalf.com.pl/b/okup-na-riwierze-agencja/"
               target="_blank"
             >
