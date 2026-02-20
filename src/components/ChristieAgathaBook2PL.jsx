@@ -44,6 +44,9 @@ const ChristieAgathaBook2PL = () => {
             >
               <button className="books-buy-button">Gandalf</button>
             </a>
+            <a href="https://amzn.eu/d/029DiR7O" target="_blank">
+              <button className="books-buy-button">Amazon PL</button>
+            </a>
           </p>
         </section>
       </section>

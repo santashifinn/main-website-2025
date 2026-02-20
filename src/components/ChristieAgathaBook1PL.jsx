@@ -44,10 +44,7 @@ const ChristieAgathaBook1PL = () => {
             >
               <button className="books-buy-button">Gandalf</button>
             </a>
-            <a
-              href="https://www.amazon.pl/Agencja-detektywistyczna-Christie-Zaginione-odkrycie/dp/8384122539"
-              target="_blank"
-            >
+            <a href="https://amzn.eu/d/02CC4yAG" target="_blank">
               <button className="books-buy-button">Amazon PL</button>
             </a>
           </p>

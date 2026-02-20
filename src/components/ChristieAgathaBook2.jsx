@@ -12,6 +12,7 @@ import ChristieAgathaBook2DE from "./ChristieAgathaBook2DE";
 import ChristieAgathaBook2TR from "./ChristieAgathaBook2TR";
 import ChristieAgathaBook2AR from "./ChristieAgathaBook2AR";
 import ChristieAgathaBook2PL from "./ChristieAgathaBook2PL";
+import ChristieAgathaBook2CH from "./ChristieAgathaBook2CH";
 
 const ChristieAgathaBook2 = () => {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
@@ -199,12 +200,24 @@ const ChristieAgathaBook2 = () => {
                   )}
                 </span>
               </button>
+              <span className="accent-books">{" • "}</span>{" "}
+              <button onClick={() => setBookEdition("CH")}>
+                <span className="underline">
+                  {bookEdition === "CH" ? (
+                    <span className="strong">Chinese</span>
+                  ) : (
+                    "Chinese"
+                  )}
+                </span>
+              </button>
             </p>
 
             {bookEdition === "DE" ? (
               <ChristieAgathaBook2DE />
             ) : bookEdition === "PL" ? (
               <ChristieAgathaBook2PL />
+            ) : bookEdition === "CH" ? (
+              <ChristieAgathaBook2CH />
             ) : bookEdition === "TR" ? (
               <ChristieAgathaBook2TR />
             ) : bookEdition === "AR" ? (
