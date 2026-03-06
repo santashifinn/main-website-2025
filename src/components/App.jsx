@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Works from "./Works";
 import Support from "./Support";
+
 import ChristieAgathaBooks from "./ChristieAgathaBooks";
 import ChristieAgathaBook1 from "./ChristieAgathaBook1";
 import ChristieAgathaBook1Point5 from "./ChristieAgathaBook1Point5";
@@ -20,21 +21,27 @@ import ChristieAgathaBook4 from "./ChristieAgathaBook4";
 import ChristieAgathaBook5 from "./ChristieAgathaBook5";
 import ChristieAgathaBook6 from "./ChristieAgathaBook6";
 import ChristieAgathaBook7 from "./ChristieAgathaBook7";
-import AwtletBooks from "./AwtletBooks";
+import ChristieAgathaBook8 from "./ChristieAgathaBook8";
+import ChristieAgathaBook9 from "./ChristieAgathaBook9";
 
-import pipheader_01 from "/assets/pipheader_01.png";
+import AwtletBooks from "./AwtletBooks";
 import AwtletBook1 from "./AwtletBook1";
 import AwtletBook4 from "./AwtletBook4";
 import AwtletBook3 from "./AwtletBook3";
 import AwtletBook2 from "./AwtletBook2";
+
 import OtherBooks from "./OtherBooks";
 import UselessPrince from "./UselessPrince";
+
 import ShortStoryTheDoppelganger from "./ShortStoryTheDoppelganger";
+
 import ProjectSixthEntryOld from "./ProjectSixthEntryOld";
 import ReviewBoyToBeatTheGods from "./ReviewBoyToBeatTheGods";
 import ReviewDearSesame from "./ReviewDearSesame";
 import FeatureChristieAndAgathaInTranslation from "./FeatureChristieAndAgathaInTranslation";
-import ChristieAgathaBook8 from "./ChristieAgathaBook8";
+
+import pipheader_01 from "/assets/pipheader_01.png";
+
 
 const App = () => {
   return (
@@ -98,6 +105,10 @@ const App = () => {
             <Route
               path="/christieandagatha/book8"
               element={<ChristieAgathaBook8 />}
+            />
+            <Route
+              path="/christieandagatha/book9"
+              element={<ChristieAgathaBook9 />}
             />
           </Route>
 

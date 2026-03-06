@@ -162,7 +162,7 @@ const Home = () => {
               </p>
               <p>
                 <span className="upcomingbutton">BOOK</span>{" "}
-                <span className="strong">September 2026</span> -{" "}
+                <span className="strong">30th July 2026</span> -{" "}
                 <span className="italics">A Puzzle in Plane Sight</span>{" "}
                 (Christie and Agatha Book 9) released
               </p>
