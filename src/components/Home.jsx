@@ -156,9 +156,19 @@ const Home = () => {
                 <span className="upcomingbutton">BOOK</span>{" "}
                 <span className="strong">15th May 2026</span> -{" "}
                 <span className="italics">
-                  Detektivagentur Christie & Agatha – Entführung im Grandhotel{" "}
+                  Detektivagentur Christie & Agatha – Entführung im
+                  Grandhotel{" "}
                 </span>{" "}
                 (German edition of Christie and Agatha Book 4) released
+              </p>
+              <p>
+                <span className="upcomingbutton">BOOK</span>{" "}
+                <span className="strong">18th May 2026</span> -{" "}
+                <span className="italics">
+                  Agencja detektywistyczna Christie i Agaty. Tom 7. Zła
+                  nuta{" "}
+                </span>{" "}
+                (Polish edition of Christie and Agatha Book 7) released
               </p>
               <p>
                 <span className="upcomingbutton">BOOK</span>{" "}

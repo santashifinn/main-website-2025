@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import christieagathabk9_0 from "/assets/christieagathabook9.jpg";
 // import christieagathabk9_1 from "/assets/christieagathabook9preview0.jpg";
-// import christieagathabk9_2 from "/assets/christieagathabook9preview1.jpg";
+import christieagathabk9_2 from "/assets/christieagathabook9preview1.jpg";
 // import christieagathabk9_3 from "/assets/christieagathabook9preview2.jpg";
 // import christieagathabk9_4 from "/assets/christieagathabook9preview3.jpg";
 
@@ -41,23 +41,23 @@ const ChristieAgathaBook9 = () => {
             className="books-covers-img-big"
             alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
           />
-          {/* <p>
+          <p>
             <span className="strong">PREVIEW:</span>
           </p>
           <section className="books-preview-container">
-            <img
+            {/* <img
               src={christieagathabk9_1}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
               onClick={() => showImage(christieagathabk9_1)}
-            />{" "}
+            />{" "} */}
             <img
               src={christieagathabk9_2}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
               onClick={() => showImage(christieagathabk9_2)}
             />{" "}
-            <img
+            {/* <img
               src={christieagathabk9_3}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
@@ -68,8 +68,8 @@ const ChristieAgathaBook9 = () => {
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
               onClick={() => showImage(christieagathabk9_4)}
-            />{" "}
-          </section> */}
+            />{" "} */}
+          </section>
         </section>
         <section className="books-individual2">
           <section className="books-individual-titles">

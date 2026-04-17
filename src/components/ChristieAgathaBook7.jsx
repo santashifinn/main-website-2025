@@ -9,6 +9,7 @@ import christieagathabk7_4 from "/assets/christieagathabook7preview3.jpg";
 import reviewsgoodreads from "/assets/contactgoodreadsreviews.png";
 import ChristieAgathaBook7EN from "./ChristieAgathaBook7EN";
 import ChristieAgathaBook7EN2 from "./ChristieAgathaBook7EN2";
+import ChristieAgathaBook7PL from "./ChristieAgathaBook6PL copy";
 
 const ChristieAgathaBook7 = () => {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
@@ -160,9 +161,22 @@ const ChristieAgathaBook7 = () => {
                   )}
                 </span>
               </button>
+              <span className="accent-books">{" • "}</span>{" "}
+              <button onClick={() => setBookEdition("PL")}>
+                <span className="underline">
+                  {" "}
+                  {bookEdition === "PL" ? (
+                    <span className="strong">Polish</span>
+                  ) : (
+                    "Polish"
+                  )}
+                </span>
+              </button>
             </p>
 
-            {bookEdition === "EN2" ? (
+            {bookEdition === "PL" ? (
+              <ChristieAgathaBook7PL />
+            ) : bookEdition === "EN2" ? (
               <ChristieAgathaBook7EN2 />
             ) : (
               <ChristieAgathaBook7EN />

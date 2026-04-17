@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
-// import christieagathabk7_1 from "/assets/christieagathabook7preview0.jpg";
-// import christieagathabk7_2 from "/assets/christieagathabook7preview1.jpg";
-// import christieagathabk7_3 from "/assets/christieagathabook7preview2.jpg";
-// import christieagathabk7_4 from "/assets/christieagathabook7preview3.jpg";
+// import christieagathabk8_1 from "/assets/christieagathabook8preview0.jpg";
+import christieagathabk8_2 from "/assets/christieagathabook8preview1.jpg";
+// import christieagathabk8_3 from "/assets/christieagathabook8preview2.jpg";
+// import christieagathabk8_4 from "/assets/christieagathabook8preview3.jpg";
 
 import reviewsgoodreads from "/assets/contactgoodreadsreviews.png";
 import ChristieAgathaBook8EN from "./ChristieAgathaBook8EN";
@@ -41,35 +41,35 @@ const ChristieAgathaBook8 = () => {
             className="books-covers-img-big"
             alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
           />
-          {/* <p>
+          <p>
             <span className="strong">PREVIEW:</span>
           </p>
           <section className="books-preview-container">
-            <img
-              src={christieagathabk7_1}
+            {/* <img
+              src={christieagathabk8_1}
               className="books-preview"
-              alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
-              onClick={() => showImage(christieagathabk7_1)}
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
+              onClick={() => showImage(christieagathabk8_1)}
+            />{" "} */}
+            <img
+              src={christieagathabk8_2}
+              className="books-preview"
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
+              onClick={() => showImage(christieagathabk8_2)}
+            />{" "}
+            {/* <img
+              src={christieagathabk8_3}
+              className="books-preview"
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
+              onClick={() => showImage(christieagathabk8_3)}
             />{" "}
             <img
-              src={christieagathabk7_2}
+              src={christieagathabk8_4}
               className="books-preview"
-              alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
-              onClick={() => showImage(christieagathabk7_2)}
-            />{" "}
-            <img
-              src={christieagathabk7_3}
-              className="books-preview"
-              alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
-              onClick={() => showImage(christieagathabk7_3)}
-            />{" "}
-            <img
-              src={christieagathabk7_4}
-              className="books-preview"
-              alt="Christie and Agatha's Detective Agency Book 7 - The Composer Crisis"
-              onClick={() => showImage(christieagathabk7_4)}
-            />{" "}
-          </section> */}
+              alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
+              onClick={() => showImage(christieagathabk8_4)}
+            />{" "} */}
+          </section>
         </section>
         <section className="books-individual2">
           <section className="books-individual-titles">

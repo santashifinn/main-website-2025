@@ -23,12 +23,12 @@ const ChristieAgathaBook9EN2 = () => {
             <a href="https://amzn.asia/d/00ZotIEu" target="_blank">
               <button className="books-buy-button">Amazon JP</button>
             </a>
-            {/* <a
-              href="https://www.kinokuniya.co.jp/f/dsg-02-9781802630831"
+            <a
+              href="https://www.kinokuniya.co.jp/f/dsg-02-9781782268222"
               target="_blank"
             >
               <button className="books-buy-button">Kinokuniya</button>
-            </a> */}
+            </a>
           </p>
           {/* <h3>US</h3>
           <p>
