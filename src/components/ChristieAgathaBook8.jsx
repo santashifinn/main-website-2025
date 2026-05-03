@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
-// import christieagathabk8_1 from "/assets/christieagathabook8preview0.jpg";
+import christieagathabk8_1 from "/assets/christieagathabook8preview0.jpg";
 import christieagathabk8_2 from "/assets/christieagathabook8preview1.jpg";
-// import christieagathabk8_3 from "/assets/christieagathabook8preview2.jpg";
+import christieagathabk8_3 from "/assets/christieagathabook8preview2.jpg";
 // import christieagathabk8_4 from "/assets/christieagathabook8preview3.jpg";
 
 import reviewsgoodreads from "/assets/contactgoodreadsreviews.png";
@@ -45,24 +45,25 @@ const ChristieAgathaBook8 = () => {
             <span className="strong">PREVIEW:</span>
           </p>
           <section className="books-preview-container">
-            {/* <img
+            <img
               src={christieagathabk8_1}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
               onClick={() => showImage(christieagathabk8_1)}
-            />{" "} */}
+            />{" "}
             <img
               src={christieagathabk8_2}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
               onClick={() => showImage(christieagathabk8_2)}
             />{" "}
-            {/* <img
+            <img
               src={christieagathabk8_3}
               className="books-preview"
               alt="Christie and Agatha's Detective Agency Book 8 - A Curious Catastrophe"
               onClick={() => showImage(christieagathabk8_3)}
             />{" "}
+            {/* 
             <img
               src={christieagathabk8_4}
               className="books-preview"
