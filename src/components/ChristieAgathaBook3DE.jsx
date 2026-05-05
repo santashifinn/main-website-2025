@@ -8,14 +8,14 @@ const ChristieAgathaBook3DE = () => {
           <img
             src={christieagathabk3_0}
             className="books-editions-img"
-            alt="Detektivagentur Christie & Agatha – Sabotage am Automobil"
+            alt="Detektivagentur Christie & Agatha – Raub im Wüstensand"
           />
         </section>
         <section className="books-editions2">
           <h3>German Edition</h3>
           <p>
             <span className="italics">
-              Detektivagentur Christie & Agatha – Sabotage am Automobil
+              Detektivagentur Christie & Agatha – Raub im Wüstensand
             </span>
           </p>
           <p>

@@ -10,6 +10,7 @@ import christieagathabk6_0 from "/assets/christieagathabook6.jpg";
 import christieagathabk7_0 from "/assets/christieagathabook7.jpg";
 import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
 import christieagathabk9_0 from "/assets/christieagathabook9.jpg";
+// import christieagathabk10_0 from "/assets/christieagathabook10.jpg";
 
 import awtletbk1_0 from "/assets/awtletbook1.jpg";
 import awtletbk2_0 from "/assets/awtletbook2.jpg";
@@ -94,6 +95,12 @@ const Books = () => {
           duo!
         </p>
         <p>
+          As well as English, Christie and Agatha's adventures are available in{" "}
+          <b>German</b>, <b>Polish</b>, <b>Czech</b>, <b>Slovak</b>,{" "}
+          <b>Romanian</b>, <b>Turkish</b>, <b>Armenian</b>, <b>Arabic</b> and{" "}
+          <b>Chinese</b>.
+        </p>
+        <p>
           (Published by <span className="strong">Sweet Cherry Publishing</span>,
           written by <span className="strong">Pip Murphy</span> (me!), and
           illustrated by <span className="strong">Roberta Tedeschi</span>, with
@@ -170,6 +177,13 @@ const Books = () => {
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
             />
           </Link>
+          {/* <Link to="/christieandagatha/book10">
+            <img
+              src={christieagathabk10_0}
+              className="books-covers-img"
+              alt="Christie and Agatha's Detective Agency Book 10 - A Mystery Manifests"
+            />
+          </Link> */}
         </section>
         <h2>
           <span className="accent-books" id="awtlet">
