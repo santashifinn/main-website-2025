@@ -37,6 +37,12 @@ const ChristieAgathaBook3AM = () => {
               <button className="books-buy-button">Daran</button>
             </a>
             <a
+              href="https://www.books.am/am/catalog/product/view/id/121789/category/2/"
+              target="_blank"
+            >
+              <button className="books-buy-button">books.am</button>
+            </a>
+            <a
               href="https://onlinearmenianstore.com/products/pip-murphy-christie-and-agathas-detective-agency-a-tomb-headache"
               target="_blank"
             >

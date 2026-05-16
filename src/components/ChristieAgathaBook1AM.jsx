@@ -1,22 +1,22 @@
-import christieagathabk5_0 from "/assets/christieagathabook5am.jpg";
+import christieagathabk1_0 from "/assets/christieagathabook1am.jpg";
 
-const ChristieAgathaBook5AM = () => {
+const ChristieAgathaBook1AM = () => {
   return (
     <>
       <section className="books-editions">
         <section className="books-editions1">
           <img
-            src={christieagathabk5_0}
+            src={christieagathabk1_0}
             className="books-editions-img"
-            alt="Քրիսթիի և Ագաթայի խուզարկուական գործակալություն. Հանճարը կանաչ ճեպընթացում"
+            alt="Քրիսթիի և Ագաթայի խուզարկուական գործակալություն. Անհետացած հայտնագործությունը"
           />
         </section>
         <section className="books-editions2">
           <h3>Armenian Edition</h3>
           <p>
             <span className="italics">
-              Քրիսթիի և Ագաթայի խուզարկուական գործակալություն. Հանճարը կանաչ
-              ճեպընթացում
+              Քրիսթիի և Ագաթայի խուզարկուական գործակալություն. Անհետացած
+              հայտնագործությունը
             </span>
           </p>
           <p>
@@ -31,25 +31,25 @@ const ChristieAgathaBook5AM = () => {
           <h3>Where to Buy</h3>
           <p>
             <a
-              href="https://daran.company.site/Փիփ-Մըրֆի-Քրիսթիի-և-Ագաթայի-խուզարկուական-գործակալություն-Հանճարը-կանաչ-ճեպընթացում-p833238830"
+              href="https://daran.company.site/Փիփ-Մըրֆի-Քրիսթիի-և-Ագաթայի-խուզարկուական-գործակալությունը-Անհետացած-հայտնագործությունը-գիրք-1-p835359462"
               target="_blank"
             >
               <button className="books-buy-button">Daran</button>
             </a>
             <a
-              href="https://www.books.am/am/catalog/product/view/id/121791/category/2/"
+              href="https://www.books.am/am/catalog/product/view/id/121843/category/2/"
               target="_blank"
             >
               <button className="books-buy-button">books.am</button>
             </a>
-            <a
-              href="https://onlinearmenianstore.com/products/pip-murphy-christie-and-agathas-detective-agency-the-genius-on-the-green-express?"
+            {/* <a
+              href="https://onlinearmenianstore.com/products/pip-murphy-christie-and-agathas-detective-agency-a-tomb-headache"
               target="_blank"
             >
               <button className="books-buy-button">
                 Online Armenian Store
               </button>
-            </a>
+            </a> */}
           </p>
         </section>
       </section>
@@ -57,4 +57,4 @@ const ChristieAgathaBook5AM = () => {
   );
 };
 
-export default ChristieAgathaBook5AM;
+export default ChristieAgathaBook1AM;
