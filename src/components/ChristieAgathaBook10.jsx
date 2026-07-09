@@ -85,18 +85,18 @@ const ChristieAgathaBook10 = () => {
               <img className="books-reviews-icons" src={reviewsgoodreads}></img>
             </a> */}
             <p>
-              {/* <button className="text-links">
+              <button className="text-links">
                 ★{" "}
                 <span className="underline">
                   <a
-                    href="https://www.amazon.co.uk/review/create-review/ref=cm_cr_othr_d_wr_but_top?ie=UTF8&channel=glance-detail&asin=1782268227"
+                    href="https://www.amazon.co.uk/review/create-review/ref=cm_cr_othr_d_wr_but_top?ie=UTF8&channel=glance-detail&asin=1782268235"
                     target="_blank"
                   >
                     Review on Amazon
                   </a>
                 </span>{" "}
                 ★
-              </button> */}
+              </button>
             </p>
             <p>
               <button className="text-links">
@@ -117,17 +117,18 @@ const ChristieAgathaBook10 = () => {
           <section className="books-individual-info">
             <p>
               <span className="italics">
-                {/* "Miss Jacqueline Cochran is saying that she wants to back out of
-                the record attempt. I need you to find out why." */}
+                "You know, this looks exactly like the sort of place where a
+                mystery might happen!"
               </span>
             </p>
             <p>
-              {/* Christie and Agatha’s Detective Agency receives a call to embark
-              on a new case! American pilot Jackie Cochran arrived in England to
-              break a flying record. But she has pulled out under mysterious
-              circumstances. Their first clue – a blackmail letter. Can the gang
-              find out who the blackmailer is and ensure Miss Cochran gets her
-              chance at making history? */}
+              There are many places the twins would rather be than stuck on a
+              spiritualist retreat. But things become interesting when famous
+              escape-artist Harry Houdini shows up on the island to expose the
+              money-grabbing spiritualists. However, when he disappears without
+              a trace, it soon becomes clear that it’s not of his own doing –
+              he’s been kidnapped! It’s up to Christie and Agatha to help him in
+              his most daring escape yet.
             </p>
             <p>
               <span className="strong">Reading age:</span> 7 years+
@@ -136,7 +137,8 @@ const ChristieAgathaBook10 = () => {
               <br />
               <span className="strong">Format:</span> Paperback book
               <br />
-              {/* <span className="strong">Publication date:</span> 30th July 2026 */}
+              <span className="strong">Publication date:</span> 24th September
+              2026
             </p>
           </section>
           <section className="books-individual-buy">
