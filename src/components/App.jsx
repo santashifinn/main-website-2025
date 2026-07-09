@@ -10,7 +10,7 @@ import About from "./About";
 import Footer from "./Footer";
 import Projects from "./Projects";
 import Works from "./Works";
-import Support from "./Support";
+import Resources from "./Resources";
 
 import ChristieAgathaBooks from "./ChristieAgathaBooks";
 import ChristieAgathaBook1 from "./ChristieAgathaBook1";
@@ -42,6 +42,7 @@ import ReviewDearSesame from "./ReviewDearSesame";
 import FeatureChristieAndAgathaInTranslation from "./FeatureChristieAndAgathaInTranslation";
 
 import pipheader_01 from "/assets/pipheader_01.png";
+
 
 
 const App = () => {
@@ -146,7 +147,7 @@ const App = () => {
           />
 
           <Route path="/about" element={<About />} />
-          <Route path="/support" element={<Support />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </main>
 

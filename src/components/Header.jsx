@@ -55,8 +55,12 @@ const Header = () => {
             <Link to="/about">
               <img src={pipheader_07} alt="About" className="nav-img-full" />
             </Link>
-            <Link to="/support">
-              <img src={pipheader_08} alt="Support" className="nav-img-full" />
+            <Link to="/resources">
+              <img
+                src={pipheader_08}
+                alt="Resources"
+                className="nav-img-full"
+              />
             </Link>
           </section>
 
@@ -139,13 +143,13 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/support">
+                  <Link to="/resources">
                     <button
                       className="nav-dropdown-option"
-                      id="nav-dropdown-support"
+                      id="nav-dropdown-resources"
                       onClick={handleNav}
                     >
-                      Support
+                      Resources
                     </button>
                   </Link>
                 </li>
