@@ -12,12 +12,12 @@ const ChristieAgathaBook8EN2 = () => {
           />
         </section>
         <section className="books-editions2 books-other-english">
-          {/* <h3>Canada</h3>
+          <h3>Canada</h3>
           <p>
-            <a href="https://a.co/d/1BGzixp" target="_blank">
+            <a href="https://a.co/d/0aVdXDW2" target="_blank">
               <button className="books-buy-button">Amazon CA</button>
             </a>
-          </p> */}
+          </p>
           <h3>Japan</h3>
           <p>
             <a href="https://amzn.asia/d/igJi9v1" target="_blank">

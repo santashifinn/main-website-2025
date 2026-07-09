@@ -78,12 +78,12 @@ const ChristieAgathaBook10 = () => {
             <p />
           </section>
           <section className="books-individual-reviews">
-            {/* <a
-              href="https://www.goodreads.com/book/show/249374617-a-puzzle-in-plane-sight"
+            <a
+              href="https://www.goodreads.com/book/show/255162003-a-mystery-manifests"
               target="_blank"
             >
               <img className="books-reviews-icons" src={reviewsgoodreads}></img>
-            </a> */}
+            </a>
             <p>
               <button className="text-links">
                 ★{" "}
@@ -102,12 +102,12 @@ const ChristieAgathaBook10 = () => {
               <button className="text-links">
                 ★{" "}
                 <span className="underline">
-                  {/* <a
-                    href="https://www.goodreads.com/review/edit/249374617"
+                  <a
+                    href="https://www.goodreads.com/review/edit/255162003"
                     target="_blank"
                   >
                     Review on Goodreads
-                  </a> */}
+                  </a>
                 </span>{" "}
                 ★
               </button>
@@ -166,9 +166,9 @@ const ChristieAgathaBook10 = () => {
             </p>
 
             {bookEdition === "EN2" ? (
-              <ChristieAgathaBook9EN2 />
+              <ChristieAgathaBook10EN2 />
             ) : (
-              <ChristieAgathaBook9EN />
+              <ChristieAgathaBook10EN />
             )}
           </section>
         </section>

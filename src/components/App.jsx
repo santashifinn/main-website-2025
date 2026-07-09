@@ -23,6 +23,7 @@ import ChristieAgathaBook6 from "./ChristieAgathaBook6";
 import ChristieAgathaBook7 from "./ChristieAgathaBook7";
 import ChristieAgathaBook8 from "./ChristieAgathaBook8";
 import ChristieAgathaBook9 from "./ChristieAgathaBook9";
+import ChristieAgathaBook10 from "./ChristieAgathaBook10";
 
 import AwtletBooks from "./AwtletBooks";
 import AwtletBook1 from "./AwtletBook1";
@@ -110,10 +111,10 @@ const App = () => {
               path="/christieandagatha/book9"
               element={<ChristieAgathaBook9 />}
             />
-            {/* <Route
+            <Route
               path="/christieandagatha/book10"
               element={<ChristieAgathaBook10 />}
-            /> */}
+            />
           </Route>
 
           <Route path="/awtlet-comics" element={<AwtletBooks />}>

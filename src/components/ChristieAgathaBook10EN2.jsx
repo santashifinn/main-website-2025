@@ -18,18 +18,18 @@ const ChristieAgathaBook10EN2 = () => {
               <button className="books-buy-button">Amazon CA</button>
             </a>
           </p> */}
-          {/* <h3>Japan</h3>
+          <h3>Japan</h3>
           <p>
-            <a href="https://amzn.asia/d/00ZotIEu" target="_blank">
+            <a href="https://amzn.asia/d/06VtlcDn" target="_blank">
               <button className="books-buy-button">Amazon JP</button>
             </a>
             <a
-              href="https://www.kinokuniya.co.jp/f/dsg-02-9781782268222"
+              href="https://www.kinokuniya.co.jp/f/dsg-02-9781782268239"
               target="_blank"
             >
               <button className="books-buy-button">Kinokuniya</button>
             </a>
-          </p> */}
+          </p>
           {/* <h3>US</h3>
           <p>
             <a href="https://a.co/d/8zpBwNa" target="_blank">

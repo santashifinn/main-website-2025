@@ -10,6 +10,7 @@ import christieagathabk6_0 from "/assets/christieagathabook6.jpg";
 import christieagathabk7_0 from "/assets/christieagathabook7.jpg";
 import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
 import christieagathabk9_0 from "/assets/christieagathabook9.jpg";
+import christieagathabk10_0 from "/assets/christieagathabook10.jpg";
 
 const ChristieAgathaBookList = () => {
   return (
@@ -84,6 +85,13 @@ const ChristieAgathaBookList = () => {
               src={christieagathabk9_0}
               className="books-covers-img-smol"
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
+            />
+          </Link>
+          <Link to="/christieandagatha/book10">
+            <img
+              src={christieagathabk10_0}
+              className="books-covers-img-smol"
+              alt="Christie and Agatha's Detective Agency Book 10 - A Mystery Manifests"
             />
           </Link>
         </section>

@@ -16,6 +16,23 @@ const Works = () => {
             <li>
               <div className="publication-type-mg-novel">MG NOVEL</div>
               <div className="publication-title">
+                Christie and Agatha's Detective Agency Book 9: A Puzzle in Plane
+                Sight
+              </div>
+              <div className="publication-date">July 2026</div>
+              <div className="publication-publisher">
+                Published by{" "}
+                <span className="publication-link">
+                  <a href="https://sweetcherrypublishing.com" target="_blank">
+                    Sweet Cherry Publishing
+                  </a>
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div className="publication-type-mg-novel">MG NOVEL</div>
+              <div className="publication-title">
                 Christie and Agatha's Detective Agency Book 8: A Curious
                 Catastrophe
               </div>

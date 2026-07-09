@@ -12,6 +12,7 @@ import ChristieAgathaBook6 from "./ChristieAgathaBook6";
 import ChristieAgathaBook7 from "./ChristieAgathaBook7";
 import ChristieAgathaBook8 from "./ChristieAgathaBook8";
 import ChristieAgathaBook9 from "./ChristieAgathaBook9";
+import ChristieAgathaBook10 from "./ChristieAgathaBook10";
 
 const ChristieAgathaBooks = () => {
     const [openBookNav, setOpenBookNav] = useState(true);
@@ -47,6 +48,7 @@ const ChristieAgathaBooks = () => {
           <Route path="/book7" element={<ChristieAgathaBook7 />} />
           <Route path="/book8" element={<ChristieAgathaBook8 />} />
           <Route path="/book9" element={<ChristieAgathaBook9 />} />
+          <Route path="/book10" element={<ChristieAgathaBook10 />} />
         </Routes>
       </section>
     </>

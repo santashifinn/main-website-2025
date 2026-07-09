@@ -10,7 +10,7 @@ import christieagathabk6_0 from "/assets/christieagathabook6.jpg";
 import christieagathabk7_0 from "/assets/christieagathabook7.jpg";
 import christieagathabk8_0 from "/assets/christieagathabook8.jpg";
 import christieagathabk9_0 from "/assets/christieagathabook9.jpg";
-// import christieagathabk10_0 from "/assets/christieagathabook10.jpg";
+import christieagathabk10_0 from "/assets/christieagathabook10.jpg";
 
 import awtletbk1_0 from "/assets/awtletbook1.jpg";
 import awtletbk2_0 from "/assets/awtletbook2.jpg";
@@ -177,13 +177,13 @@ const Books = () => {
               alt="Christie and Agatha's Detective Agency Book 9 - A Puzzle in Plane Sight"
             />
           </Link>
-          {/* <Link to="/christieandagatha/book10">
+          <Link to="/christieandagatha/book10">
             <img
               src={christieagathabk10_0}
               className="books-covers-img"
               alt="Christie and Agatha's Detective Agency Book 10 - A Mystery Manifests"
             />
-          </Link> */}
+          </Link>
         </section>
         <h2>
           <span className="accent-books" id="awtlet">
