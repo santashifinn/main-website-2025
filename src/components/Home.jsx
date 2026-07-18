@@ -147,6 +147,12 @@ const Home = () => {
             </h1>
             <p>
               <p>
+                <span className="upcomingbutton">RESOURCES</span>{" "}
+                <span className="strong">18th July 2026</span> -{" "}
+                <span className="italics">A Curious Catastrophe</span> (Christie
+                and Agatha Book 8) worksheet added to Resources
+              </p>
+              <p>
                 <span className="upcomingbutton">BOOK</span>{" "}
                 <span className="strong">30th July 2026</span> -{" "}
                 <span className="italics">A Puzzle in Plane Sight</span>{" "}

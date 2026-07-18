@@ -346,7 +346,9 @@ main p {
   width: 300px;
   border: 2px solid #f0a544;
   border-radius: 10px;
-  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+  box-shadow:
+    0 3px 8px 0 #f0a544,
+    0 3px 20px 0 #f0a544;
 }
 
 .blog-title {
@@ -425,7 +427,9 @@ main p {
 .blog-multipart-img-span {
   border: 1px solid #f0a544;
   border-radius: 8px;
-  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+  box-shadow:
+    0 3px 8px 0 #f0a544,
+    0 3px 20px 0 #f0a544;
 }
 
 .blog-multipart-img-port,
@@ -462,7 +466,9 @@ main p {
 .blog-books-covers-img-pair {
   border: 1px solid #f0a544;
   border-radius: 8px;
-  box-shadow: 0 3px 8px 0 #f0a544, 0 3px 20px 0 #f0a544;
+  box-shadow:
+    0 3px 8px 0 #f0a544,
+    0 3px 20px 0 #f0a544;
   max-width: 100%;
 }
 
@@ -491,7 +497,9 @@ main p {
 .books-covers-img-smol {
   border: 1px solid #f7cf35;
   border-radius: 8px;
-  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  box-shadow:
+    0 3px 8px 0 #f3d973,
+    0 3px 20px 0 #eedea2;
   transition: all 0.3s ease-in-out;
 }
 
@@ -527,7 +535,9 @@ main p {
 }
 
 .books-covers-img-big {
-  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  box-shadow:
+    0 3px 8px 0 #f3d973,
+    0 3px 20px 0 #eedea2;
 }
 
 .books-preview-container {
@@ -605,7 +615,9 @@ main p {
 .books-editions-img {
   border: 1px solid #f7cf35;
   border-radius: 8px;
-  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  box-shadow:
+    0 3px 8px 0 #f3d973,
+    0 3px 20px 0 #eedea2;
   max-width: 250px;
 }
 
@@ -618,7 +630,9 @@ main p {
 }
 
 .books-buy-button:hover {
-  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  box-shadow:
+    0 3px 8px 0 #f3d973,
+    0 3px 20px 0 #eedea2;
 }
 
 .books-other-english h3 {
@@ -645,7 +659,9 @@ main p {
 }
 
 .books-language-selector-button:hover {
-  box-shadow: 0 3px 8px 0 #f3d973, 0 3px 20px 0 #eedea2;
+  box-shadow:
+    0 3px 8px 0 #f3d973,
+    0 3px 20px 0 #eedea2;
   transform: scale(1.08);
 }
 
@@ -672,7 +688,9 @@ main p {
   width: 300px;
   border: 2px solid #55d86a;
   border-radius: 10px;
-  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+  box-shadow:
+    0 3px 8px 0 #55d86a,
+    0 3px 20px 0 #55d86a;
 }
 
 .projects-title {
@@ -725,7 +743,9 @@ main p {
 }
 
 .sixth-entry-download-button:hover {
-  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+  box-shadow:
+    0 3px 8px 0 #55d86a,
+    0 3px 20px 0 #55d86a;
 }
 
 .sixth-entry-characters {
@@ -778,7 +798,9 @@ main p {
   max-width: 100%;
   border-radius: 10px;
   border: 2px solid #55d86a;
-  box-shadow: 0 3px 8px 0 #55d86a, 0 3px 20px 0 #55d86a;
+  box-shadow:
+    0 3px 8px 0 #55d86a,
+    0 3px 20px 0 #55d86a;
 }
 
 /* Works */
@@ -885,6 +907,42 @@ main p {
 }
 
 /* Resources */
+
+.resources-list ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.resources-list li {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px;
+  border: 2px solid #b66dad;
+  border-radius: 10px;
+  box-shadow:
+    0 3px 8px 0 #b66dad,
+    0 3px 20px 0 #b66dad;
+}
+
+.resources-list p {
+  margin: 10px 0 0 0;
+}
+
+.resources-download-button {
+  text-align: center;
+  margin: 20px 0 50px 0;
+  padding: 10px;
+  border: 2px solid #b66dad;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resources-download-button:hover {
+  box-shadow:
+    0 3px 8px 0 #b66dad,
+    0 3px 20px 0 #b66dad;
+}
 
 /* .icon-amazonwishlist {
   width: 150px;
@@ -1177,6 +1235,11 @@ main p {
   /* Resources */
 
   .resources {
+  }
+
+  .resources-list li {
+    width: 600px;
+    height: 600px;
   }
 }
 
@@ -1500,6 +1563,16 @@ main p {
     height: 200px;
     margin: 10px;
   }
+
+  /* Resources */
+
+  .resources {
+  }
+
+  .resources-list li {
+    width: 500px;
+    height: 600px;
+  }
 }
 
 /* Big phone screen CSS */
@@ -1592,6 +1665,16 @@ main p {
     font-size: 1.1rem;
     padding: 15px;
   }
+
+  /* Resources */
+
+  .resources {
+  }
+
+  .resources-list li {
+    width: 90%;
+    height: 500px;
+  }
 }
 
 /* Medium phone screen CSS */
@@ -1659,6 +1742,16 @@ main p {
 
   .video-player {
     height: 150px;
+  }
+
+  /* Resources */
+
+  .resources {
+  }
+
+  .resources-list li {
+    width: 90%;
+    height: 500px;
   }
 }
 
