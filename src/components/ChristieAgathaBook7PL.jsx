@@ -31,12 +31,12 @@ const ChristieAgathaBook7PL = () => {
           </p>
           <h3>Where to Buy</h3>
           <p>
-            {/* <a
-              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-6-jak-powstrzymac-wielki-skok/"
+            <a
+              href="https://wydawnictwo-tandem.pl/produkt/agencja-detektywistyczna-christie-i-agaty-tom-7-zla-nuta/"
               target="_blank"
             >
               <button className="books-buy-button">Tandem</button>
-            </a> */}
+            </a>
             <a
               href="https://www.gandalf.com.pl/zla-nuta-agencja-detektywistyczna-christie-i-agaty-tom-7-p-2033167.html"
               target="_blank"

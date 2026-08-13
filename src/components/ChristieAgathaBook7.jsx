@@ -9,7 +9,7 @@ import christieagathabk7_4 from "/assets/christieagathabook7preview3.jpg";
 import reviewsgoodreads from "/assets/contactgoodreadsreviews.png";
 import ChristieAgathaBook7EN from "./ChristieAgathaBook7EN";
 import ChristieAgathaBook7EN2 from "./ChristieAgathaBook7EN2";
-import ChristieAgathaBook7PL from "./ChristieAgathaBook6PL copy";
+import ChristieAgathaBook7PL from "./ChristieAgathaBook7PL";
 
 const ChristieAgathaBook7 = () => {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
