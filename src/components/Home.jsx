@@ -148,18 +148,18 @@ const Home = () => {
             <p>
               <p>
                 <span className="upcomingbutton">BOOK</span>{" "}
-                <span className="strong">6th August 2026</span> -{" "}
-                <span className="italics">
-                  Agencja detektywistyczna Christie i Agaty. Tom 8. Kocia
-                  katastrofa
-                </span>{" "}
-                (Christie and Agatha Book 8) released in Polish
-              </p>
-              <p>
-                <span className="upcomingbutton">BOOK</span>{" "}
                 <span className="strong">24th September 2026</span> -{" "}
                 <span className="italics">A Mystery Manifests</span> (Christie
                 and Agatha Book 10) released
+              </p>
+              <p>
+                <span className="upcomingbutton">BOOK</span>{" "}
+                <span className="strong">9th October 2026</span> -{" "}
+                <span className="italics">
+                  Agencja detektywistyczna Christie i Agaty. Tom 9. Lot z
+                  widokiem na zagadkę
+                </span>{" "}
+                (Christie and Agatha Book 9) released in Polish
               </p>
             </p>
           </section>

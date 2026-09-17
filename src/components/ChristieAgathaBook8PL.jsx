@@ -8,7 +8,7 @@ const ChristieAgathaBook8PL = () => {
           <img
             src={christieagathabk8_0}
             className="books-editions-img"
-            alt="Agencja detektywistyczna Christie i Agaty. Tom 8. Zła nuta"
+            alt="Agencja detektywistyczna Christie i Agaty. Tom 8. Kocia katastrofa"
           />
         </section>
         <section className="books-editions2">
