@@ -148,18 +148,20 @@ const Home = () => {
             <p>
               <p>
                 <span className="upcomingbutton">BOOK</span>{" "}
-                <span className="strong">24th September 2026</span> -{" "}
-                <span className="italics">A Mystery Manifests</span> (Christie
-                and Agatha Book 10) released
-              </p>
-              <p>
-                <span className="upcomingbutton">BOOK</span>{" "}
                 <span className="strong">9th October 2026</span> -{" "}
                 <span className="italics">
                   Agencja detektywistyczna Christie i Agaty. Tom 9. Lot z
                   widokiem na zagadkę
                 </span>{" "}
                 (Christie and Agatha Book 9) released in Polish
+              </p>
+              <p>
+                <span className="upcomingbutton">GAME</span>{" "}
+                <span className="strong">31st October 2026</span> - My
+                point-and-click game,{" "}
+                <span className="italics">
+                  Tales from the Rabbit Hole: Prepping for Midnight
+                </span>, released in Projects
               </p>
             </p>
           </section>

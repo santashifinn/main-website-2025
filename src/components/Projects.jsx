@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import projectbannerawtlet from "/assets/project-banner-awtlet.png";
 import projectbannerlaurus from "/assets/project-banner-laurus.png";
 import projectbannersixthentryold from "/assets/project-banner-sixthentryold.png";
+import projectpreppingformidnight from "/assets/project-banner-preppingformidnight.png";
 // import projectbannerartouch from "/assets/project-banner-artouch.png";
 
 const Projects = () => {
@@ -15,6 +16,28 @@ const Projects = () => {
 
         <section className="projects-list">
           <ul>
+            <li>
+              <div className="projects-title">
+                <span className="accent-projects">P</span>repping for Midnight
+              </div>
+              <div>
+                <img
+                  src={projectpreppingformidnight}
+                  className="projects-img"
+                  alt="Prepping for Midnight"
+                />
+              </div>
+              <div className="projects-date"> Halloween 2026</div>
+              <div className="projects-info">
+                Prepare to face a supernatural midnight visitor in this cozy
+                point-and-click game, made in RPG Maker MZ.
+              </div>
+              <div className="projects-see-more">
+                <span className="projects-link">
+                  <Link to="/projects/preppingformidnight">SEE MORE</Link>
+                </span>
+              </div>
+            </li>
             <li>
               <div className="projects-title">
                 <span className="accent-projects">A</span>ssassins Want to Learn

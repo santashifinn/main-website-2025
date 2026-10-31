@@ -42,6 +42,7 @@ import ReviewDearSesame from "./ReviewDearSesame";
 import FeatureChristieAndAgathaInTranslation from "./FeatureChristieAndAgathaInTranslation";
 
 import pipheader_01 from "/assets/pipheader_01.png";
+import ProjectPreppingForMidnight from "./ProjectPreppingForMidnight";
 
 
 
@@ -133,6 +134,11 @@ const App = () => {
           </Route>
 
           <Route path="/projects" element={<Projects />} />
+
+          <Route
+            path="/projects/preppingformidnight"
+            element={<ProjectPreppingForMidnight />}
+          />
 
           <Route
             path="/projects/sixthentryold"
