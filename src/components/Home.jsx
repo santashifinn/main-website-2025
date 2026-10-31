@@ -11,6 +11,7 @@ import contactinstagram from "/assets/icon-instagram.svg";
 import contactlinkedin from "/assets/icon-linkedin.svg";
 import contactthreads from "/assets/icon-threads.svg";
 import contactyoutube from "/assets/icon-youtube.svg";
+import contactkofi from "/assets/icon-kofi.svg";
 
 const Home = () => {
   return (
@@ -138,6 +139,16 @@ const Home = () => {
                   />
                 </a>
               </span>
+              <span className="icons-box">
+                <a href="https://ko-fi.com/pipmurphyauthor" target="_blank">
+                  <img
+                    src={contactkofi}
+                    alt="Ko-fi"
+                    className="icons"
+                    id="icon7"
+                  />
+                </a>
+              </span>
             </div>
           </section>
 
@@ -161,7 +172,8 @@ const Home = () => {
                 point-and-click game,{" "}
                 <span className="italics">
                   Tales from the Rabbit Hole: Prepping for Midnight
-                </span>, released in Projects
+                </span>
+                , released in Projects
               </p>
             </p>
           </section>
