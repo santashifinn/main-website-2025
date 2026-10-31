@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import preppingformidnightscreenshots1 from "/assets/preppingformidnight_screenshot6.png";
 import preppingformidnightscreenshots2 from "/assets/preppingformidnight_screenshot1.png";
@@ -15,25 +15,24 @@ const ProjectPreppingForMidnight = () => {
         <h2>
           <span className="accent-projects">P</span>repping for Midnight
         </h2>
-        <h3>
-          <span className="accent-projects">P</span>lay in Browser
-        </h3>
-        <div>
-          <iframe
-            frameborder="0"
-            src="https://itch.io/embed-upload/20177032?color=22004b"
-            allowfullscreen=""
-            width="816"
-            height="692"
-          >
-            <a href="https://santashi.itch.io/tales-from-the-rabbit-hole-prepping-for-midnight">
-              Play Tales from the Rabbit Hole: Prepping for Midnight on itch.io
-            </a>
-          </iframe>
-        </div>
         <p>
           <span className="strong">Current release:</span> 1.10
         </p>
+        <br />
+        <h3>
+          <span className="accent-projects">P</span>lay in Browser
+        </h3>
+        <br />
+        <div>
+          <iframe
+            frameBorder="0"
+            src="https://pipmurphy.com/preppingformidnight"
+            allowFullScreen=""
+            width="816"
+            height="672"
+          ></iframe>
+        </div>
+        <br />
         <p>An urban legend about a note that leads to doom.</p>
         <p>
           You thank your lucky stars that such things don't exist in real life,
@@ -73,6 +72,20 @@ const ProjectPreppingForMidnight = () => {
             <button className="sixth-entry-download-button">PC</button>
           </a>
         </section>
+        <p>
+          Or download / play in browser on itch:
+          <br />
+          <iframe
+            frameborder="0"
+            src="https://itch.io/embed/5264488"
+            width="552"
+            height="167"
+          >
+            <a href="https://santashi.itch.io/tales-from-the-rabbit-hole-prepping-for-midnight">
+              Tales from the Rabbit Hole: Prepping for Midnight by santashi
+            </a>
+          </iframe>
+        </p>
         <br />
         <h3>
           <span className="accent-projects">C</span>ontrols
@@ -93,7 +106,8 @@ const ProjectPreppingForMidnight = () => {
           <br />• Cancel / Call Menu = X / escape
           <br />• Move = directional keys
           <br />
-          <br />*Some items must be clicked on, using a mouse or tracker pad.
+          <br />
+          *Some items must be clicked on, using a mouse or tracker pad.
         </p>
         <br />
 
