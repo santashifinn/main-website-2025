@@ -9,6 +9,11 @@ import preppingformidnightscreenshots6 from "/assets/preppingformidnight_screens
 import preppingformidnightscreenshots7 from "/assets/preppingformidnight_screenshot7.png";
 
 const ProjectPreppingForMidnight = () => {
+
+  let deviceInfo = navigator.userAgent;
+  let regex = /android|iphone|kindle|ipad/i;
+  let mobileDevice = regex.test(deviceInfo);
+
   return (
     <>
       <section className="projects">
@@ -23,15 +28,47 @@ const ProjectPreppingForMidnight = () => {
           <span className="accent-projects">P</span>lay in Browser
         </h3>
         <br />
-        <div>
-          <iframe
-            frameBorder="0"
-            src="https://pipmurphy.com/preppingformidnight"
-            allowFullScreen=""
-            width="816"
-            height="672"
-          ></iframe>
+        <div className="projects-game-frame-iframe-small-screen">
+          <p>
+            It would be difficult to play the game on the current screen size.
+          </p>
+          <p>
+            I recommend using a device with a bigger screen (eg. laptop, tablet,
+            a bigger phone). If you still wish to try on the current device,
+            please try on{" "}
+            <a href="https://santashi.itch.io/tales-from-the-rabbit-hole-prepping-for-midnight">
+              the itch website
+            </a>
+            , which will scale the game better.
+          </p>
         </div>
+
+        <div>
+          {mobileDevice ? (
+            <div className="projects-game-frame">
+              <iframe
+                className="projects-game-frame-iframe"
+                frameBorder="0"
+                src="https://pipmurphy.com/preppingformidnight"
+                allowFullScreen=""
+                width="816"
+                height="672"
+              ></iframe>
+            </div>
+          ) : (
+            <div className="projects-game-frame-laptop">
+              <iframe
+                className="projects-game-frame-iframe-laptop"
+                frameBorder="0"
+                src="https://pipmurphy.com/preppingformidnight"
+                allowFullScreen=""
+                width="816"
+                height="672"
+              ></iframe>
+            </div>
+          )}
+        </div>
+
         <br />
         <p>An urban legend about a note that leads to doom.</p>
         <p>
@@ -75,16 +112,19 @@ const ProjectPreppingForMidnight = () => {
         <p>
           Or download / play in browser on itch:
           <br />
-          <iframe
-            frameborder="0"
-            src="https://itch.io/embed/5264488"
-            width="552"
-            height="167"
-          >
-            <a href="https://santashi.itch.io/tales-from-the-rabbit-hole-prepping-for-midnight">
-              Tales from the Rabbit Hole: Prepping for Midnight by santashi
-            </a>
-          </iframe>
+          <div projects-itch-link>
+            <iframe
+              className="projects-itch-link-iframe"
+              frameborder="0"
+              src="https://itch.io/embed/5264488"
+              width="552"
+              height="167"
+            >
+              <a href="https://santashi.itch.io/tales-from-the-rabbit-hole-prepping-for-midnight">
+                Tales from the Rabbit Hole: Prepping for Midnight by santashi
+              </a>
+            </iframe>
+          </div>
         </p>
         <br />
         <h3>
